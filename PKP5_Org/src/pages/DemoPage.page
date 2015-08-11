@@ -1,0 +1,21 @@
+<apex:page standardController="Account" sidebar="false" tabStyle="Lead">
+   <apex:pageBlock title="Account Details">
+        <apex:pageblockSection title="page block section title1" columns="2">
+            <apex:outputField value="{!Account.Name}"/>
+            <apex:outputLabel value="{!Account.Description}"    />
+            <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+            <apex:outputText value="{!Account.Description}" escape="false"/>
+            <apex:outputField value="{!Account.Name}"/>
+            <apex:outputField value="{!Account.Name}"/>
+        </apex:pageblockSection>
+        <apex:pageblockSection title="page block section title2" columns="1">
+            <table border="1" width="80%">
+              <tr>
+              <td> {!Account.Name}</td>
+              <td> {!Account.Phone}</td>
+              <td> {!Account.Type}</td>
+              </tr>
+            </table>
+        </apex:pageblockSection>
+    </apex:pageBlock> 
+</apex:page>

@@ -1,0 +1,16 @@
+<apex:page controller="MerchandiseDetails">
+<apex:form >
+    <apex:pageBlock title="Product Details">
+        <apex:pageBlockSection title="Product">
+            <apex:inputField value="{!merch.Name}"/>
+    </apex:pageBlockSection>
+    <apex:pageBlockSection title="Dimensions">
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:repeat value="{!fields}" var="f">
+    <apex:inputField value="{!merch[f.fieldPath]}"
+        required="{!OR(f.required, f.dbrequired)}"/>
+    </apex:repeat>
+    </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

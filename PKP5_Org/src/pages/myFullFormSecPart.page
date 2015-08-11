@@ -1,0 +1,38 @@
+<apex:page controller="ControllerPSComponent">
+    <apex:messages />
+    <apex:composition template="myFormComposition">
+    <apex:define name="top">
+        <apex:outputLabel value="  TOP  " for="mealField"/>
+        <table cellspacing="1" border="1" style="border:1px solid #334323;">
+              <tr>
+                 <td>&nbsp;</td>
+                 <td><apex:insert name="top" /></td>
+                 <td>&nbsp;</td>
+              </tr>
+              <tr>
+                 <td><apex:insert name="left" /></td>
+                 <td>&nbsp;</td>
+                 <td><apex:insert name="right" /></td>
+              </tr>
+              <tr>
+                 <td>&nbsp;</td>
+                 <td><apex:insert name="bottom" /></td>
+                 <td>&nbsp;</td>
+              </tr>
+             </table>
+    </apex:define>
+    <apex:define name="bottom">
+        <apex:outputLabel value="BOTTOM" for="ageField"/>
+    </apex:define>
+    <apex:define name="left">
+        <apex:outputLabel value="Left Section: " for="mealField"/>
+    </apex:define>
+    <apex:define name="right">
+        <apex:outputLabel value="Right Section: " for="ageField"/>
+    </apex:define>
+    <apex:outputLabel value="Enter your favorite color: " for="colorField"/>
+    <apex:inputText id="colorField" value="{!color}"/>
+    </apex:composition>
+    <apex:outputText id="greeting"  value="Hello {!sName}.
+    You look {!age} years old. Would you like some {!color} {!meal}?"/>
+</apex:page>

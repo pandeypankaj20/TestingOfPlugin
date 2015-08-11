@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Détails relatifs au lien individuel</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Détails relatifs au lien individuel</value>
+    </caseValues>
+    <fields>
+        <label>Identifiant du lien ExactTarget</label>
+        <name>ExactTargetLinkID__c</name>
+    </fields>
+    <fields>
+        <label>Résultat d’e-mail individuel</label>
+        <name>Individual_Email_Result__c</name>
+        <relationshipLabel>Détails relatifs au lien individuel</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date and time this link was last clicked by this subscriber --></help>
+        <label>Cliqué pour la dernière fois</label>
+        <name>Last_Clicked__c</name>
+    </fields>
+    <fields>
+        <label>URL du lien</label>
+        <name>LinkURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of times this link has been clicked by this subscriber --></help>
+        <label>Nombre de clics totaux</label>
+        <name>NumberOfTotalClicks__c</name>
+    </fields>
+    <fields>
+        <label>Identifiant de lien unique</label>
+        <name>Unique_Link_ID__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Individual Link Level Detail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Link Name --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

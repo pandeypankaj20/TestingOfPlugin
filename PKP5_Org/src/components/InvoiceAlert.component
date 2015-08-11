@@ -1,0 +1,14 @@
+<apex:component access="global">
+  <apex:attribute name="obectInfo" type="Account" description="related object information"/>
+    <apex:outputText value="{!$Label.Dear} {!obectInfo.Name}"></apex:outputText> 
+    <br/><br/><br/>
+    <apex:outputText value="{!$Label.MainBody}"></apex:outputText>
+    <br/><br/>
+    <apex:outputText value="{!$ObjectType.Account.fields.Name.Label}: {!obectInfo.Name}"></apex:outputText>
+     <br/>
+    <apex:outputText value="{!$ObjectType.Account.fields.accountNumber.Label}:  {!obectInfo.AccountNumber}"></apex:outputText>
+     <br/>
+    <apex:outputText value="{!$ObjectType.Account.fields.ShippingStreet.Label}:     {!obectInfo.ShippingStreet}"></apex:outputText>
+     <br/><br/><br/><br/>
+    <apex:outputText escape="false" value="{!$Label.footer}"></apex:outputText>
+</apex:component>

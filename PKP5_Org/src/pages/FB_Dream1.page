@@ -1,0 +1,27 @@
+<apex:page showHeader="false" sidebar="false">
+<script>
+  function openURL(val){
+   alert(val);
+   document.getElementById('open_sfdc').style.display = '';
+   document.getElementById('tbl_sfdc').style.display = 'none';
+   
+   if(val == 'S'){
+    document.getElementById('open_sfdc_iframe').src = 'https://test.salesforce.com/' ;
+   }else if(val == 'P'){
+    document.getElementById('open_sfdc_iframe').src = 'https://login.salesforce.com/' ;
+   }
+  }
+ </script>
+<html>
+ <table height="1000px" width="100%" id="tbl_sfdc" style="display:'';">
+  <tr>
+    <td>
+      Login in <a href="#" onclick="openURL('S');">sanbox</a> or <a href="#" onclick="openURL('P');">production</a>.
+    </td>
+  </tr>
+ </table>
+ <div id="open_sfdc" style="display:'';">  
+   <iframe src="https://login.salesforce.com/" height="1000px" width="100%" scrolling="no" id="open_sfdc_iframe" />
+ </div>
+ </html>
+</apex:page>

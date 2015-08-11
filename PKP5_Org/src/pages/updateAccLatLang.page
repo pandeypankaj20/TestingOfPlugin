@@ -1,0 +1,22 @@
+<apex:page standardController="Account" showHeader="false">
+<script>
+    var __sfdcSessionId = '{!GETSESSIONID()}';
+</script>
+<script src="/soap/ajax/15.0/connection.js" type="text/javascript"></script>
+<script src="/soap/ajax/15.0/apex.js" type="text/javascript"></script>
+<script>
+  //sforce.debug.log("EXISTING LAT"+ {!Account.Latitude__c});
+  //sforce.debug.log("EXISTING LONG"+  {!Account.Longitude__c});
+ if('{!Account.Latitude__c}' == '' || '{!Account.Longitude__c}' == ''){
+    var cordinates =  sforce.apex.execute("FindLatitudeLongitude", "getLatitudeLongitude", {AccId:'{!Account.Id}'})
+    //sforce.debug.log(cordinates[2] + " -- " + cordinates[3]);
+    var account = new sforce.SObject("Account");
+    account.Latitude__c = cordinates[2];
+    account.Longitude__c = cordinates[3];
+    account.id = '{!Account.Id}';
+    result = sforce.connection.update([account]);
+    //sforce.debug.log("ACCOUNT UPDATE RESULT: " + result);
+ } 
+
+</script>
+</apex:page>

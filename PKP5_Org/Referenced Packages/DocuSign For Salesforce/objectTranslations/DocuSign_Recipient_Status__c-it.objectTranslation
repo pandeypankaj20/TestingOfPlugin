@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocuSign Recipient Status --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- DocuSign Recipient Status --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel>Stato destinatario DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contatto</label>
+        <name>Contact__c</name>
+        <relationshipLabel>Stato destinatario DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data rifiuto</label>
+        <name>Date_Declined__c</name>
+    </fields>
+    <fields>
+        <label>Data consegna</label>
+        <name>Date_Delivered__c</name>
+    </fields>
+    <fields>
+        <label>Data invio</label>
+        <name>Date_Sent__c</name>
+    </fields>
+    <fields>
+        <label>Data apposizione firma</label>
+        <name>Date_Signed__c</name>
+    </fields>
+    <fields>
+        <label>Motivo rifiuto</label>
+        <name>Decline_Reason__c</name>
+    </fields>
+    <fields>
+        <label>Azienda destinatario DocuSign</label>
+        <name>DocuSign_Recipient_Company__c</name>
+    </fields>
+    <fields>
+        <label>E-mail destinatario DocuSign</label>
+        <name>DocuSign_Recipient_Email__c</name>
+    </fields>
+    <fields>
+        <label>ID destinatario DocuSign</label>
+        <name>DocuSign_Recipient_Id__c</name>
+    </fields>
+    <fields>
+        <label>Titolo destinatario DocuSign</label>
+        <name>DocuSign_Recipient_Title__c</name>
+    </fields>
+    <fields>
+        <label>Ordine di reindirizzamento DocuSign</label>
+        <name>DocuSign_Routing_Order__c</name>
+    </fields>
+    <fields>
+        <label>ID busta</label>
+        <name>Envelope_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel>Stato destinatario DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Record stato DocuSign</label>
+        <name>Parent_Status_Record__c</name>
+        <relationshipLabel>Stato destinatario DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Stato destinatario</label>
+        <name>Recipient_Status__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>DocuSign Recipient Status Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Related Objects --></label>
+            <section>Related Objects</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- DocuSign Recipient Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+    <webLinks>
+        <label>Reinvia e-mail DocuSign</label>
+        <name>ResendDocuSignEmail</name>
+    </webLinks>
+</CustomObjectTranslation>

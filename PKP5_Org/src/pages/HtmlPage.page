@@ -1,0 +1,326 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false">
+<html>
+<body>
+    <center> <h1><b>WELCOME TO HOME PAGE </b></h1> </center>
+    <hr></hr>
+    <table border="1" align="center" width="90%">
+    <tr>
+        <th colspan="2" ALIGN="center">FRESH FRUIT</th> 
+    </tr>
+    <tr>
+        <td>It has long been
+             known that a diet
+             that includes
+             at least a few
+             servings of fresh
+             fruit every day 
+            will help keep
+             you healthy, fit and trim.
+        </td>
+        <td>
+            <img src="http://www.htmliseasy.com/exercises/fruitbowl.gif"/>
+        </td>
+      </tr>
+</table>
+<hr>
+</hr>
+
+
+
+<table> <tr><th colspan="2" ALIGN="center">FRESH FRUIT</th></tr>
+ 
+<tr>
+          <td>It has long been
+              known that a diet
+             that includes
+             at least a few
+             servings of fresh
+             fruit every day 
+              will help keep
+             you healthy, fit and trim.
+        </td>
+        <td>
+            <img src="http://www.htmliseasy.com/exercises/fruitbowl.gif"/>
+       </td>
+</tr>
+</table>
+  
+  
+  
+<table border="1">
+
+     <tr> <th colspan="4" ALIGN="center">EMPLOYEE DATA TABLE</th>
+    </tr>
+ <tr>
+
+       <th>NAME</th>
+       <th>AGE</th>
+       <th>CLASS</th>
+       <th>GENDER</th>
+ </tr>
+
+ <tr>
+       <td>sunita</td>
+       <td>22</td>
+       <td>12</td>
+       <td>f</td>
+ </tr>
+
+
+ <tr>
+      <td>pankaj</td>
+      <td>22</td>
+      <td>12</td>
+      <td>m</td>
+ </tr>
+
+
+ <tr>
+       <td>rani</td>
+       <td>22</td>
+       <td>12</td>
+       <td>f</td>
+ </tr>
+</table>
+
+
+<hr></hr>
+
+
+<table>
+          <tr> <th colspan="6" ALIGN="center" style="background-color:red;">MY TECH STOCKS PICK</th></tr>
+      <tr>
+          <th>name</th>
+          <th>symbol</th>
+          <th>current</th>
+          <th>52WK HI</th>
+          <th>52WK LO</th>
+          <th>P/E RATIO</th>
+      </tr>
+
+     <tr style="background-color:red;">
+         <td>microsoft</td>
+         <td>MSFT</td>
+         <td>85-3/8</td>
+         <td>119-15/16</td>
+         <td>75-1/2</td>
+         <td>56.09</td>
+     </tr>
+
+    <tr>
+        <td>microsoft</td>
+        <td>MSFT</td>
+        <td>85-3/8</td>
+        <td>119-15/16</td>
+        <td>75-1/2</td>
+        <td>56.09</td>
+   </tr>
+
+    <tr style="background-color:red;">
+         <td>microsoft</td>
+         <td>MSFT</td>
+         <td>85-3/8</td>
+         <td>119-15/16</td>
+         <td>75-1/2</td>
+         <td>56.09</td>
+     </tr>
+
+     <tr>
+         <td>microsoft</td>
+         <td>MSFT</td>
+         <td>85-3/8</td>
+         <td>119-15/16</td>
+         <td>75-1/2</td>
+         <td>56.09</td>
+     </tr>
+
+</table>
+
+<hr></hr>
+
+<form>
+<table width="50%" align="center" border="1">
+       <tr> 
+            <td> 
+               NAME 
+            </td>
+            <td>
+               <input type="text" NAME="NAME"/>
+            </td>
+          </tr>
+      <tr> 
+            <td>
+               AGE
+            </td>
+            <td>
+              <input type="text" AGE="AGE"/>
+            </td>
+          </tr>
+     
+     
+     
+      <tr>  
+     
+      
+           <td> 
+               STATE
+            </td>
+            <td>
+               <input type="text" STATE="STATE"/>
+            </td>
+          </tr>
+      <tr> 
+            <td>
+               CITY
+            </td>
+            <td>
+              <input type="text" CITY="CITY"/>
+            </td>
+          </tr>
+      <tr>  
+            <td>
+                CLASS
+            </td>
+            <td>
+                <select value="class">
+                <option name="MCA">MCA</option>
+                <option name="MBA">MBA</option>
+                <option name="MS">MS</option>
+                <option name="MTECH">MTECH</option>
+               </select>
+               </td>   
+       </tr> 
+       
+        <tr>  
+            <td>
+                GENDER
+            </td>
+            <td>
+                <input type="RADIO" NAME="GENDER" value="MALE"/>MALE
+               <input type="RADIO" NAME="GENDER" value="FEMALE"/>FEMALE
+               
+               </td>   
+       </tr> 
+       
+        <tr>  
+            <td>
+                SUBJECT
+            </td>
+            <td>
+                <select value="SUBJECT">
+               <option name="MATH">MATH</option>
+                <option name="SCIENCE">SCIENCE</option>
+                <option name="ENGLISH">ENGLISH</option>
+                <option name="HINDI">HINDI</option>
+               </select>
+               </td>   
+       </tr> 
+       
+</table>
+
+
+
+</form>
+
+
+<from>
+     <input type="button" value="send your order"/>
+</from>  
+
+
+
+
+<hr></hr>
+<form>
+<table>
+       <tr> 
+            <td> 
+               NAME 
+            </td>
+            <td>
+               <input type="text" NAME="NAME"/>
+            </td>
+          </tr>
+      <tr> 
+            <td>
+               AGE
+            </td>
+            <td>
+              <input type="text" AGE="AGE"/>
+            </td>
+          </tr>
+     
+     
+     
+      <tr>  
+     
+      
+           <td> 
+               STATE
+            </td>
+            <td>
+               <input type="text" STATE="STATE"/>
+            </td>
+          </tr>
+      <tr> 
+            <td>
+               CITY
+            </td>
+            <td>
+              <input type="text" CITY="CITY"/>
+            </td>
+          </tr>
+      <tr>  
+            <td>
+                CLASS
+            </td>
+            <td>
+                <select value="class">
+                <option name="MCA">MCA</option>
+                <option name="MBA">MBA</option>
+                <option name="MS">MS</option>
+                <option name="MTECH">MTECH</option>
+               </select>
+               </td>   
+       </tr> 
+       
+        <tr>  
+            <td>
+                GENDER
+            </td>
+            <td>
+                <input type="RADIO" NAME="GENDER" value="MALE"/>MALE
+                <input type="RADIO" NAME="GENDER" value="FEMALE"/>FEMALE
+               
+               </td>   
+       </tr> 
+       
+        <tr>  
+            <td>
+                SUBJECT
+            </td>
+            <td>
+                <select value="SUBJECT">
+               <option name="MATH">MATH</option>
+                <option name="SCIENCE">SCIENCE</option>
+                <option name="ENGLISH">ENGLISH</option>
+                <option name="HINDI">HINDI</option>
+               </select>
+               </td>   
+       </tr> 
+       
+</table>
+
+
+
+</form>
+
+
+<from>
+      <input type="button" value="send your order"/>
+</from>  
+
+
+</body>
+</html>
+</apex:page>

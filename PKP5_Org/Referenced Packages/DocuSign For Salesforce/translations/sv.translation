@@ -1,0 +1,2655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- DocuSign For Salesforce --></label>
+        <name>DocuSign_For_Salesforce</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- AboutDS --></label>
+        <name>AboutDS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccessCode --></label>
+        <name>AccessCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account --></label>
+        <name>Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountAlreadyExistEmailName --></label>
+        <name>AccountAlreadyExistEmailName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountCreation --></label>
+        <name>AccountCreation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountID --></label>
+        <name>AccountID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountInfo --></label>
+        <name>AccountInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountInfo.AccountName --></label>
+        <name>AccountInfoAccountName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountInfo.CredentialMessage --></label>
+        <name>AccountInfoCredentialMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountInfo.NotConfigured --></label>
+        <name>AccountInfoNotConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountInformation --></label>
+        <name>AccountInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountManagement --></label>
+        <name>AccountManagement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountMustBeConfigured --></label>
+        <name>AccountMustBeConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountNotConfig --></label>
+        <name>AccountNotConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountNumber --></label>
+        <name>AccountNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountPageLayout --></label>
+        <name>AccountPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccountSuspended --></label>
+        <name>AccountSuspended</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Accounts --></label>
+        <name>Accounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AcknowledgeReceipt --></label>
+        <name>AcknowledgeReceipt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action --></label>
+        <name>Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActionStatus --></label>
+        <name>ActionStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActivateMembers --></label>
+        <name>ActivateMembers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActivateMembersError --></label>
+        <name>ActivateMembersError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Activated --></label>
+        <name>Activated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActivatedBySalesforce --></label>
+        <name>ActivatedBySalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActivationMessage --></label>
+        <name>ActivationMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add --></label>
+        <name>Add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddAdminUsers --></label>
+        <name>AddAdminUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddAdminUsersAddTheDocuSignPackage --></label>
+        <name>AddAdminUsersAddTheDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddButtons --></label>
+        <name>AddButtons</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddDSButtonsToSF --></label>
+        <name>AddDSButtonsToSF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddDSTrusted --></label>
+        <name>AddDSTrusted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddDoc --></label>
+        <name>AddDoc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddDocuSignAsATrustedNetwork --></label>
+        <name>AddDocuSignAsATrustedNetwork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddDocuSignPackageForSelectedUsers --></label>
+        <name>AddDocuSignPackageForSelectedUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddMe --></label>
+        <name>AddMe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddNewDoc --></label>
+        <name>AddNewDoc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddPlaceholderRecipient --></label>
+        <name>AddPlaceholderRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddRecipient --></label>
+        <name>AddRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddRecipientFrom --></label>
+        <name>AddRecipientFrom</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddRole --></label>
+        <name>AddRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddSelectedAvailableFields --></label>
+        <name>AddSelectedAvailableFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddTheDocuSignButtonToDefaultLayout --></label>
+        <name>AddTheDocuSignButtonToDefaultLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddUsers --></label>
+        <name>AddUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddUsersAddTheDocuSignPackage --></label>
+        <name>AddUsersAddTheDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AdddocuSignPackageMakeUsersAdministrators --></label>
+        <name>AdddocuSignPackageMakeUsersAdministrators</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Address --></label>
+        <name>Address</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddressLine1 --></label>
+        <name>AddressLine1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddressLine2 --></label>
+        <name>AddressLine2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddressRecipients --></label>
+        <name>AddressRecipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AdminAccessReq --></label>
+        <name>AdminAccessReq</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AdminHomeSearchDocumentation --></label>
+        <name>AdminHomeSearchDocumentation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ApplySelectedActionToSelectedUsers --></label>
+        <name>ApplySelectedActionToSelectedUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AreYouSureVoidEnvelope --></label>
+        <name>AreYouSureVoidEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AtLeastOneDocumentIsRequired --></label>
+        <name>AtLeastOneDocumentIsRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AtLeastOneRecipientHasError --></label>
+        <name>AtLeastOneRecipientHasError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AtLeastOneRecipientRequired --></label>
+        <name>AtLeastOneRecipientRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachments --></label>
+        <name>Attachments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AuthenticateDSAccount --></label>
+        <name>AuthenticateDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AutoSetupStep1 --></label>
+        <name>AutoSetupStep1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AutoSetupStep2 --></label>
+        <name>AutoSetupStep2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AutoSetupStep3 --></label>
+        <name>AutoSetupStep3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AutoSetupStep4 --></label>
+        <name>AutoSetupStep4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AvailableDocs --></label>
+        <name>AvailableDocs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AvailableFields --></label>
+        <name>AvailableFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back --></label>
+        <name>Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BackSelectDocuSignAccount --></label>
+        <name>BackSelectDocuSignAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ButtonBelow --></label>
+        <name>ButtonBelow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CVV2 --></label>
+        <name>CVV2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CannotRemoveYourselfFromActiveDocuSignUsers --></label>
+        <name>CannotRemoveYourselfFromActiveDocuSignUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CarbonCopy --></label>
+        <name>CarbonCopy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CertifiedDelivery --></label>
+        <name>CertifiedDelivery</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change --></label>
+        <name>Change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CharactersRemaining200 --></label>
+        <name>CharactersRemaining200</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChatterOnTheseEnvelopeEvents --></label>
+        <name>ChatterOnTheseEnvelopeEvents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChatterOnTheseRecipientEvents --></label>
+        <name>ChatterOnTheseRecipientEvents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChatterSettings --></label>
+        <name>ChatterSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChatterUpdates --></label>
+        <name>ChatterUpdates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CheckEmailCreatePassword --></label>
+        <name>CheckEmailCreatePassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CheckingThisBoxMeansThat --></label>
+        <name>CheckingThisBoxMeansThat</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CheckingThisBoxMeansThatWhen --></label>
+        <name>CheckingThisBoxMeansThatWhen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChineseSimplified --></label>
+        <name>ChineseSimplified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChooseFields --></label>
+        <name>ChooseFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChooseFilterOption --></label>
+        <name>ChooseFilterOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChooseNumberOfRows --></label>
+        <name>ChooseNumberOfRows</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChooseRecipient --></label>
+        <name>ChooseRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ChooseTheFieldsToDisplay --></label>
+        <name>ChooseTheFieldsToDisplay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- City --></label>
+        <name>City</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ClickHere --></label>
+        <name>ClickHere</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ClickHereToReconnect --></label>
+        <name>ClickHereToReconnect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ClickOnEditDocuSignPassword --></label>
+        <name>ClickOnEditDocuSignPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ClosePopUpAfterComplete --></label>
+        <name>ClosePopUpAfterComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ClosePopup --></label>
+        <name>ClosePopup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CompanyName --></label>
+        <name>CompanyName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Completed --></label>
+        <name>Completed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigSFDC --></label>
+        <name>ConfigSFDC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigSFDCDemo --></label>
+        <name>ConfigSFDCDemo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigSFDCDemoMessage --></label>
+        <name>ConfigSFDCDemoMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigSFDCEasy --></label>
+        <name>ConfigSFDCEasy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigSendWithDSButton --></label>
+        <name>ConfigSendWithDSButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigTagger --></label>
+        <name>ConfigTagger</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigurationErrorColon --></label>
+        <name>ConfigurationErrorColon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfigureAccount --></label>
+        <name>ConfigureAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfiguredDSAdmin --></label>
+        <name>ConfiguredDSAdmin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm --></label>
+        <name>Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfirmActivateLoginMessage --></label>
+        <name>ConfirmActivateLoginMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfirmDeleteTheDocuSignCredentials --></label>
+        <name>ConfirmDeleteTheDocuSignCredentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfirmPassword --></label>
+        <name>ConfirmPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConnectDSToSF --></label>
+        <name>ConnectDSToSF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConnectDocuSignToSalesforce --></label>
+        <name>ConnectDocuSignToSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConnectErrorDash --></label>
+        <name>ConnectErrorDash</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Console --></label>
+        <name>Console</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact --></label>
+        <name>Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ContactAdminForConfig --></label>
+        <name>ContactAdminForConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ContactPageLayout --></label>
+        <name>ContactPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ContactSFAdminForAccess --></label>
+        <name>ContactSFAdminForAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ContactSupport --></label>
+        <name>ContactSupport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contacts --></label>
+        <name>Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content --></label>
+        <name>Content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ContentWorkspaceListSelectWorkspace --></label>
+        <name>ContentWorkspaceListSelectWorkspace</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Continue --></label>
+        <name>Continue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract --></label>
+        <name>Contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ContractPageLayout --></label>
+        <name>ContractPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CouldNotAuthenticateUser --></label>
+        <name>CouldNotAuthenticateUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CoultNotBeActivatedDash --></label>
+        <name>CoultNotBeActivatedDash</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Country --></label>
+        <name>Country</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateANewUserView --></label>
+        <name>CreateANewUserView</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateAccount --></label>
+        <name>CreateAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateAccountForm --></label>
+        <name>CreateAccountForm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateDSOrUseExisting --></label>
+        <name>CreateDSOrUseExisting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateMemberStatusMessage --></label>
+        <name>CreateMemberStatusMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateMembership --></label>
+        <name>CreateMembership</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateMyAccount --></label>
+        <name>CreateMyAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateNewMembershipFor --></label>
+        <name>CreateNewMembershipFor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateNewView --></label>
+        <name>CreateNewView</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreateTrialOrLinkExisting --></label>
+        <name>CreateTrialOrLinkExisting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreditCardInfo --></label>
+        <name>CreditCardInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CurrentBillingPeriodEndDate --></label>
+        <name>CurrentBillingPeriodEndDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CurrentBillingPeriodStartDate --></label>
+        <name>CurrentBillingPeriodStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CurrentSalesforceUser --></label>
+        <name>CurrentSalesforceUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSAccountConfig --></label>
+        <name>DSAccountConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSAdmin --></label>
+        <name>DSAdmin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSClient.AuthenticationException --></label>
+        <name>DSClientAuthenticationException</name>
+    </customLabels>
+    <customLabels>
+        <label>USER_AUTHENTICATION_FAILED</label>
+        <name>DSClient_USER_AUTHENTICATION_FAILED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSCreateEnvRecordEmailIs --></label>
+        <name>DSCreateEnvRecordEmailIs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSEmail --></label>
+        <name>DSEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSEnvelope --></label>
+        <name>DSEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSForSF --></label>
+        <name>DSForSF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSPassword --></label>
+        <name>DSPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSPushToSFOnLogin --></label>
+        <name>DSPushToSFOnLogin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSRecipient --></label>
+        <name>DSRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSRecipientEmail --></label>
+        <name>DSRecipientEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSRecipientName --></label>
+        <name>DSRecipientName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSResendResult --></label>
+        <name>DSResendResult</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSStatusResult --></label>
+        <name>DSStatusResult</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSTermsConditions --></label>
+        <name>DSTermsConditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DSToSFComplete --></label>
+        <name>DSToSFComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Declined --></label>
+        <name>Declined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DefInTemplate --></label>
+        <name>DefInTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DefaultEmailMessage --></label>
+        <name>DefaultEmailMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DefaultEmailSubject --></label>
+        <name>DefaultEmailSubject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DefaultExpireEnvelope --></label>
+        <name>DefaultExpireEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DefaultRepeatReminder --></label>
+        <name>DefaultRepeatReminder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DefaultSendReminder --></label>
+        <name>DefaultSendReminder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DefaultWarnOfExpiration --></label>
+        <name>DefaultWarnOfExpiration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Del --></label>
+        <name>Del</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeleteMembership --></label>
+        <name>DeleteMembership</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeleteMembershipFor --></label>
+        <name>DeleteMembershipFor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeleteUppercase --></label>
+        <name>DeleteUppercase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delivered --></label>
+        <name>Delivered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details --></label>
+        <name>Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisableUserEmailMessageEditing --></label>
+        <name>DisableUserEmailMessageEditing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisableUserEmailSubjectEditing --></label>
+        <name>DisableUserEmailSubjectEditing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disabled --></label>
+        <name>Disabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DiscardTheChangesToSelectedFields --></label>
+        <name>DiscardTheChangesToSelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display0Of1Accounts --></label>
+        <name>Display0Of1Accounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayAccountPageLayout --></label>
+        <name>DisplayAccountPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayAccountSettings --></label>
+        <name>DisplayAccountSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayConsole --></label>
+        <name>DisplayConsole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayContactPageLayout --></label>
+        <name>DisplayContactPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayContractPageLayout --></label>
+        <name>DisplayContractPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayEnvelopSettings --></label>
+        <name>DisplayEnvelopSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayLeadPageLayout --></label>
+        <name>DisplayLeadPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayManageUsers --></label>
+        <name>DisplayManageUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayManageUsersAdd --></label>
+        <name>DisplayManageUsersAdd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayManageUsersDeactivate --></label>
+        <name>DisplayManageUsersDeactivate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayOpportunityPageLayout --></label>
+        <name>DisplayOpportunityPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayRowsWhere --></label>
+        <name>DisplayRowsWhere</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayTheDocuSignInPerson --></label>
+        <name>DisplayTheDocuSignInPerson</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayTheDocuSignTaggerPage --></label>
+        <name>DisplayTheDocuSignTaggerPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayWelcomePage --></label>
+        <name>DisplayWelcomePage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayingPage --></label>
+        <name>DisplayingPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DoMoreWithDocuSign --></label>
+        <name>DoMoreWithDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocOrder --></label>
+        <name>DocOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocsForSignature --></label>
+        <name>DocsForSignature</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignAccountAlreadyConfigured --></label>
+        <name>DocuSignAccountAlreadyConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignAccountInformation --></label>
+        <name>DocuSignAccountInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignChatter --></label>
+        <name>DocuSignChatter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignDidNotReturnStatus --></label>
+        <name>DocuSignDidNotReturnStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignEmailAddress --></label>
+        <name>DocuSignEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignEnvelopeCancelled --></label>
+        <name>DocuSignEnvelopeCancelled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignEnvelopeNotSentOrDeilivered --></label>
+        <name>DocuSignEnvelopeNotSentOrDeilivered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignEnvelopeSaved --></label>
+        <name>DocuSignEnvelopeSaved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignInc --></label>
+        <name>DocuSignInc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignMemberManagement --></label>
+        <name>DocuSignMemberManagement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignNotConfigured --></label>
+        <name>DocuSignNotConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignNotConfiguredContactAdmin --></label>
+        <name>DocuSignNotConfiguredContactAdmin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignSendingCompleted --></label>
+        <name>DocuSignSendingCompleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignSetup --></label>
+        <name>DocuSignSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignSystemSenderNotConfigured --></label>
+        <name>DocuSignSystemSenderNotConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignSystemSenderUser --></label>
+        <name>DocuSignSystemSenderUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignSystemSenderUserId --></label>
+        <name>DocuSignSystemSenderUserId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignSystemSenderUserInformation --></label>
+        <name>DocuSignSystemSenderUserInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignTemplates --></label>
+        <name>DocuSignTemplates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignUser --></label>
+        <name>DocuSignUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignUserId --></label>
+        <name>DocuSignUserId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignUserNotConfigured --></label>
+        <name>DocuSignUserNotConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSignUsername --></label>
+        <name>DocuSignUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document --></label>
+        <name>Document</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocumentFolderListSelectFolder --></label>
+        <name>DocumentFolderListSelectFolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Documents --></label>
+        <name>Documents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Done --></label>
+        <name>Done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dutch --></label>
+        <name>Dutch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EachRoleNameMustBeEntered --></label>
+        <name>EachRoleNameMustBeEntered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit --></label>
+        <name>Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditAccountInfo --></label>
+        <name>EditAccountInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditChatterSettings --></label>
+        <name>EditChatterSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditDocFromEnvelope --></label>
+        <name>EditDocFromEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditDocuSignPassword --></label>
+        <name>EditDocuSignPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditEmailMessage --></label>
+        <name>EditEmailMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditEnvelopeReminder --></label>
+        <name>EditEnvelopeReminder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditLinkInfo --></label>
+        <name>EditLinkInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditPageLayouts --></label>
+        <name>EditPageLayouts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditRecipient --></label>
+        <name>EditRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditSalesforceUser --></label>
+        <name>EditSalesforceUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditSelectedUser --></label>
+        <name>EditSelectedUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditSenderNPassword --></label>
+        <name>EditSenderNPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EditTheUserView --></label>
+        <name>EditTheUserView</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailAddress --></label>
+        <name>EmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailAddressMissing --></label>
+        <name>EmailAddressMissing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailBodyLimitedTwoThousand --></label>
+        <name>EmailBodyLimitedTwoThousand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailMessage --></label>
+        <name>EmailMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailNotSent --></label>
+        <name>EmailNotSent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailNowAllowedEmailRestricted --></label>
+        <name>EmailNowAllowedEmailRestricted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailRequired --></label>
+        <name>EmailRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailSettings --></label>
+        <name>EmailSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailSubject --></label>
+        <name>EmailSubject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailSubjectNotBeBlank --></label>
+        <name>EmailSubjectNotBeBlank</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailUsAt --></label>
+        <name>EmailUsAt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnableChatterUpdates --></label>
+        <name>EnableChatterUpdates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnableNewMobileTaggingUI --></label>
+        <name>EnableNewMobileTaggingUI</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnableNewMobileTaggingUIToolTip --></label>
+        <name>EnableNewMobileTaggingUIToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnableReminderExpiration --></label>
+        <name>EnableReminderExpiration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable Reminder and Expiration Settings Help Text --></label>
+        <name>EnableReminderExpirationHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnableSalesforceCalloutLimit --></label>
+        <name>EnableSalesforceCalloutLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnableSendDataToSF --></label>
+        <name>EnableSendDataToSF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnabledAlwaysOn --></label>
+        <name>EnabledAlwaysOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnabledOffByDefault --></label>
+        <name>EnabledOffByDefault</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnabledOnByDefault --></label>
+        <name>EnabledOnByDefault</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- English --></label>
+        <name>English</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnsureDocuSignAccountHasSession --></label>
+        <name>EnsureDocuSignAccountHasSession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnterCredentialsLinkAccount --></label>
+        <name>EnterCredentialsLinkAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnterDocuSignSystemSenderCredentials --></label>
+        <name>EnterDocuSignSystemSenderCredentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnterPasswordClickUpdateDocuSign --></label>
+        <name>EnterPasswordClickUpdateDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnterPasswordandClickUpdatePassword --></label>
+        <name>EnterPasswordandClickUpdatePassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnterRemoveDefaultRoles --></label>
+        <name>EnterRemoveDefaultRoles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnterValueSalesforceCustomURL --></label>
+        <name>EnterValueSalesforceCustomURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Envelope --></label>
+        <name>Envelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeCannotBeResent --></label>
+        <name>EnvelopeCannotBeResent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeCouldNotBeCreated --></label>
+        <name>EnvelopeCouldNotBeCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeEmaillCannotBeResent --></label>
+        <name>EnvelopeEmaillCannotBeResent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeEmailsNotResent --></label>
+        <name>EnvelopeEmailsNotResent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeID --></label>
+        <name>EnvelopeID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeIDColon --></label>
+        <name>EnvelopeIDColon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeInfo --></label>
+        <name>EnvelopeInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeReminder --></label>
+        <name>EnvelopeReminder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvelopeSettings --></label>
+        <name>EnvelopeSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Envelopes --></label>
+        <name>Envelopes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Environment --></label>
+        <name>Environment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorAddingMembersToAccountColon --></label>
+        <name>ErrorAddingMembersToAccountColon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorAdminPageStartOver --></label>
+        <name>ErrorAdminPageStartOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorAuthenticating --></label>
+        <name>ErrorAuthenticating</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorAuthenticatingInsufficientUserObject --></label>
+        <name>ErrorAuthenticatingInsufficientUserObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorAuthenticatingNotHaveProperPermissions --></label>
+        <name>ErrorAuthenticatingNotHaveProperPermissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorBadURLVar --></label>
+        <name>ErrorBadURLVar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorColon --></label>
+        <name>ErrorColon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorContactingDocuSignActivatingSalesforce --></label>
+        <name>ErrorContactingDocuSignActivatingSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorCreatingEnvelopeInsufficientAccess --></label>
+        <name>ErrorCreatingEnvelopeInsufficientAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorDeactivatingDocuSignAccounts --></label>
+        <name>ErrorDeactivatingDocuSignAccounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorDeactivingDocuSignAccountColon --></label>
+        <name>ErrorDeactivingDocuSignAccountColon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorEquals --></label>
+        <name>ErrorEquals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorFrom --></label>
+        <name>ErrorFrom</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorIn --></label>
+        <name>ErrorIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorInsufficientAccessToUserObject --></label>
+        <name>ErrorInsufficientAccessToUserObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMessages --></label>
+        <name>ErrorMessages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorNetworkIssueRetry --></label>
+        <name>ErrorNetworkIssueRetry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorOccurredContact --></label>
+        <name>ErrorOccurredContact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorRequestingActivation --></label>
+        <name>ErrorRequestingActivation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorRetrievingDocuSignConsoleInformation --></label>
+        <name>ErrorRetrievingDocuSignConsoleInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorSalesforceCredentialsVerify --></label>
+        <name>ErrorSalesforceCredentialsVerify</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorSavingAccountConnectInformation --></label>
+        <name>ErrorSavingAccountConnectInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorSavingMembersInsufficientAccessUserObject --></label>
+        <name>ErrorSavingMembersInsufficientAccessUserObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorSending --></label>
+        <name>ErrorSending</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorUnableToSendEvenlopeNotExist --></label>
+        <name>ErrorUnableToSendEvenlopeNotExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ExampleIfTheFirstRoleIsCustomer --></label>
+        <name>ExampleIfTheFirstRoleIsCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ExpirationMonth --></label>
+        <name>ExpirationMonth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ExpirationYear --></label>
+        <name>ExpirationYear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext --></label>
+        <name>Ext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FName --></label>
+        <name>FName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fax --></label>
+        <name>Fax</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FieldsThatWillBeDisplayed --></label>
+        <name>FieldsThatWillBeDisplayed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FinalSteps --></label>
+        <name>FinalSteps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder --></label>
+        <name>Folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ForFreeDSTrial --></label>
+        <name>ForFreeDSTrial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ForgotDocuSignPassword --></label>
+        <name>ForgotDocuSignPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ForgotPassword --></label>
+        <name>ForgotPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ForgottenPassAnswer --></label>
+        <name>ForgottenPassAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ForgottenPassQuestion --></label>
+        <name>ForgottenPassQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- French --></label>
+        <name>French</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- German --></label>
+        <name>German</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GetSendNRealTimeVisibility --></label>
+        <name>GetSendNRealTimeVisibility</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GetSigningURLRedirectErrorMessage --></label>
+        <name>GetSigningURLRedirectErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HideChatterSettings --></label>
+        <name>HideChatterSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HideEmailMessageField --></label>
+        <name>HideEmailMessageField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HideEmailSubjectField --></label>
+        <name>HideEmailSubjectField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HideTheRemindAndExpireSettings --></label>
+        <name>HideTheRemindAndExpireSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HideTheSendNowButton --></label>
+        <name>HideTheSendNowButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HideTheTagButton --></label>
+        <name>HideTheTagButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Home --></label>
+        <name>Home</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HostInPerson --></label>
+        <name>HostInPerson</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HostInPersonDashSignNow --></label>
+        <name>HostInPersonDashSignNow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HowToEditYourDocuSignActivity --></label>
+        <name>HowToEditYourDocuSignActivity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HowToSendUsingDocuSignSalesforce --></label>
+        <name>HowToSendUsingDocuSignSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- IAgreeToThe --></label>
+        <name>IAgreeToThe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- IHaveDSAccount --></label>
+        <name>IHaveDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- INeedDSAccount --></label>
+        <name>INeedDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- IfDoesntWorkContact --></label>
+        <name>IfDoesntWorkContact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- IfYouSeeTheDocuSignLoginScreen --></label>
+        <name>IfYouSeeTheDocuSignLoginScreen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Incomplete --></label>
+        <name>Incomplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessDocuSignEnvelopeDocument --></label>
+        <name>InsufficientAccessDocuSignEnvelopeDocument</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessInformation --></label>
+        <name>InsufficientAccessInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessToConfig --></label>
+        <name>InsufficientAccessToConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessToContact --></label>
+        <name>InsufficientAccessToContact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessToLead --></label>
+        <name>InsufficientAccessToLead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessToUser --></label>
+        <name>InsufficientAccessToUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessUserObject --></label>
+        <name>InsufficientAccessUserObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientDocuSignEnvelopeRecipientc --></label>
+        <name>InsufficientDocuSignEnvelopeRecipientc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientPriviliegesSelectUserRecords --></label>
+        <name>InsufficientPriviliegesSelectUserRecords</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientReadPermissions --></label>
+        <name>InsufficientReadPermissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidDocuSignEmailPassword --></label>
+        <name>InvalidDocuSignEmailPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidDocuSignPermissionToUseThisProduct --></label>
+        <name>InvalidDocuSignPermissionToUseThisProduct</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidSourceId --></label>
+        <name>InvalidSourceId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidTemplateIdDash --></label>
+        <name>InvalidTemplateIdDash</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Italian --></label>
+        <name>Italian</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Japanese --></label>
+        <name>Japanese</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Korean --></label>
+        <name>Korean</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LName --></label>
+        <name>LName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Language --></label>
+        <name>Language</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lead --></label>
+        <name>Lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LeadPageLayout --></label>
+        <name>LeadPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Leads --></label>
+        <name>Leads</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LearnMore --></label>
+        <name>LearnMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LearnMoreColon --></label>
+        <name>LearnMoreColon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Library --></label>
+        <name>Library</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LikelyFileMissingFileExtension --></label>
+        <name>LikelyFileMissingFileExtension</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LinkAccount --></label>
+        <name>LinkAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LinkDSAccount --></label>
+        <name>LinkDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LinkExistingMembershipFor --></label>
+        <name>LinkExistingMembershipFor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LinkMembership --></label>
+        <name>LinkMembership</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LogIn --></label>
+        <name>LogIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manage --></label>
+        <name>Manage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManageAccount --></label>
+        <name>ManageAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManageDocuSignUsersHelp --></label>
+        <name>ManageDocuSignUsersHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManageEnvelope --></label>
+        <name>ManageEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManageEnvelopes --></label>
+        <name>ManageEnvelopes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManageUsers --></label>
+        <name>ManageUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MemberListDocuSignNotSameLengthListSent --></label>
+        <name>MemberListDocuSignNotSameLengthListSent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MemberListFromDocuSignNotSameLengthList --></label>
+        <name>MemberListFromDocuSignNotSameLengthList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MembershipFor --></label>
+        <name>MembershipFor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message --></label>
+        <name>Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MessageEquals --></label>
+        <name>MessageEquals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MiddleName --></label>
+        <name>MiddleName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MissingSettingToBePrimaryAccountSFDC --></label>
+        <name>MissingSettingToBePrimaryAccountSFDC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MoveDown --></label>
+        <name>MoveDown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MoveTheSelectedFieldDown --></label>
+        <name>MoveTheSelectedFieldDown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MoveTheSelectedFieldUp --></label>
+        <name>MoveTheSelectedFieldUp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MoveTheSelectedFields --></label>
+        <name>MoveTheSelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MoveUp --></label>
+        <name>MoveUp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustAgreeDocuSignTerms --></label>
+        <name>MustAgreeDocuSignTerms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustHaveAdminPermissionsPerformOperation --></label>
+        <name>MustHaveAdminPermissionsPerformOperation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustHaveDocuSignAdminPermissionsPerformOperation --></label>
+        <name>MustHaveDocuSignAdminPermissionsPerformOperation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustHavePermissionsToPerformOperations --></label>
+        <name>MustHavePermissionsToPerformOperations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustProvideValidSalesforceUserAndPassword --></label>
+        <name>MustProvideValidSalesforceUserAndPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustSelectAnAccount --></label>
+        <name>MustSelectAnAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustSpecifyCompanyName --></label>
+        <name>MustSpecifyCompanyName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustSpecifyEmailAddress --></label>
+        <name>MustSpecifyEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustSpecifyName --></label>
+        <name>MustSpecifyName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MustSpecifyPassword --></label>
+        <name>MustSpecifyPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MyDocuments --></label>
+        <name>MyDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name --></label>
+        <name>Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NameOnCard --></label>
+        <name>NameOnCard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New --></label>
+        <name>New</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NextOrBackMessage --></label>
+        <name>NextOrBackMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NextUppercase --></label>
+        <name>NextUppercase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoAccessToPage --></label>
+        <name>NoAccessToPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoConnectionDocuSignAvailable --></label>
+        <name>NoConnectionDocuSignAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoDocuSignAccess --></label>
+        <name>NoDocuSignAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoDocuments --></label>
+        <name>NoDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoDocumentsDesktop --></label>
+        <name>NoDocumentsDesktop</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoPermissionConfig --></label>
+        <name>NoPermissionConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoPermissionCustomObj --></label>
+        <name>NoPermissionCustomObj</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoRecipients --></label>
+        <name>NoRecipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoRecipientsDesktop --></label>
+        <name>NoRecipientsDesktop</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoRowsToDisplay --></label>
+        <name>NoRowsToDisplay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotAssociatedSalesforceUserToDocuSign --></label>
+        <name>NotAssociatedSalesforceUserToDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotEnvelopeOwner --></label>
+        <name>NotEnvelopeOwner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotHavePermissionsToUpdateSalesforceUserRecords --></label>
+        <name>NotHavePermissionsToUpdateSalesforceUserRecords</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotHaveSufficientPermissionResend --></label>
+        <name>NotHaveSufficientPermissionResend</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotHaveSystemSenderPassword --></label>
+        <name>NotHaveSystemSenderPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotSupposedToBeShown --></label>
+        <name>NotSupposedToBeShown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoteForRecipient --></label>
+        <name>NoteForRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoteSendWithDocuSign --></label>
+        <name>NoteSendWithDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Of --></label>
+        <name>Of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OnlyEnvelopeInSentOrDelivered --></label>
+        <name>OnlyEnvelopeInSentOrDelivered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OpportunityPageLayout --></label>
+        <name>OpportunityPageLayout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Or --></label>
+        <name>Or</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order --></label>
+        <name>Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderOfTheRolesDetermines --></label>
+        <name>OrderOfTheRolesDetermines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page --></label>
+        <name>Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Password --></label>
+        <name>Password</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PersonalInfo --></label>
+        <name>PersonalInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PhoneNumber --></label>
+        <name>PhoneNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PlaceholderRole --></label>
+        <name>PlaceholderRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PlanEndDate --></label>
+        <name>PlanEndDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PlanID --></label>
+        <name>PlanID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PlanName --></label>
+        <name>PlanName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PlanStartDate --></label>
+        <name>PlanStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PleaseContactDocuSignSupportAt --></label>
+        <name>PleaseContactDocuSignSupportAt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PleaseContactDocuSignSupportTo --></label>
+        <name>PleaseContactDocuSignSupportTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PleaseContactYourSalesforceAdministratorToBeGranted --></label>
+        <name>PleaseContactYourSalesforceAdministratorToBeGranted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortugueseBrazilian --></label>
+        <name>PortugueseBrazilian</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PossibleErrorConditions --></label>
+        <name>PossibleErrorConditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PostCode --></label>
+        <name>PostCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous --></label>
+        <name>Previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProblemWithTransaction --></label>
+        <name>ProblemWithTransaction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QuickLinks --></label>
+        <name>QuickLinks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReceiveCopy --></label>
+        <name>ReceiveCopy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recipient --></label>
+        <name>Recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecipientMustHaveEmailAddress --></label>
+        <name>RecipientMustHaveEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecipientRoleSettings --></label>
+        <name>RecipientRoleSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecipientsAndRouting --></label>
+        <name>RecipientsAndRouting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecipientsHaveNeenNotifiedEmail --></label>
+        <name>RecipientsHaveNeenNotifiedEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecipientsWhoHaveNotSigned --></label>
+        <name>RecipientsWhoHaveNotSigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecipientsWillNoLongerAccess --></label>
+        <name>RecipientsWillNoLongerAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Region --></label>
+        <name>Region</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReminderExpirationsMustBeNumbers --></label>
+        <name>ReminderExpirationsMustBeNumbers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove --></label>
+        <name>Remove</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoveAndCloseUsers --></label>
+        <name>RemoveAndCloseUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoveAndCloseUsersDocuSignPackage --></label>
+        <name>RemoveAndCloseUsersDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoveDocuSignPackageSelectedUsersKeepAccount --></label>
+        <name>RemoveDocuSignPackageSelectedUsersKeepAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoveDocuSignPackageSelectedUsrsClose --></label>
+        <name>RemoveDocuSignPackageSelectedUsrsClose</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoveUsers --></label>
+        <name>RemoveUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoveUsersRemoveTheDocuSignPackage --></label>
+        <name>RemoveUsersRemoveTheDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResendEmails --></label>
+        <name>ResendEmails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResendEmailsComplete --></label>
+        <name>ResendEmailsComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResetPassword --></label>
+        <name>ResetPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResizeWelcomePanel --></label>
+        <name>ResizeWelcomePanel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Return --></label>
+        <name>Return</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReturnTo --></label>
+        <name>ReturnTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReturnToEnvelope --></label>
+        <name>ReturnToEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Role --></label>
+        <name>Role</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RoleNames --></label>
+        <name>RoleNames</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RoleOrRecipientNameRequired --></label>
+        <name>RoleOrRecipientNameRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RolesAreUsedToMapDefaultAnchorTabs --></label>
+        <name>RolesAreUsedToMapDefaultAnchorTabs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RoutingOrder --></label>
+        <name>RoutingOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RoutingOrderMustBeOneOrHeigher --></label>
+        <name>RoutingOrderMustBeOneOrHeigher</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RowsDisplayedPerPage --></label>
+        <name>RowsDisplayedPerPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Russian --></label>
+        <name>Russian</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDCCompleteManageAdminTab --></label>
+        <name>SFDCCompleteManageAdminTab</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDCSetupComplete --></label>
+        <name>SFDCSetupComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SalesforceEnv --></label>
+        <name>SalesforceEnv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SalesforceEnvironment --></label>
+        <name>SalesforceEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SalesforcePass --></label>
+        <name>SalesforcePass</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SalesforcePassword --></label>
+        <name>SalesforcePassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SalesforceToken --></label>
+        <name>SalesforceToken</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SalesforceUser --></label>
+        <name>SalesforceUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveDocuSignEnvelopeChanges --></label>
+        <name>SaveDocuSignEnvelopeChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveRecipient --></label>
+        <name>SaveRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveTheChangesToTheSelectedFields --></label>
+        <name>SaveTheChangesToTheSelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SearchDocumentation --></label>
+        <name>SearchDocumentation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SeeMoreAccounts --></label>
+        <name>SeeMoreAccounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select --></label>
+        <name>Select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectAUser --></label>
+        <name>SelectAUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectAllUsersOnThisPage --></label>
+        <name>SelectAllUsersOnThisPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectAtLeastOneUserActivatedDSProSFUsername --></label>
+        <name>SelectAtLeastOneUserActivatedDSProSFUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectAtLeastOneUserDSProSFUsername --></label>
+        <name>SelectAtLeastOneUserDSProSFUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectColumnHeaderToSort --></label>
+        <name>SelectColumnHeaderToSort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectFieldsToDisplayInList --></label>
+        <name>SelectFieldsToDisplayInList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectFilterToApply --></label>
+        <name>SelectFilterToApply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectOneEmailForSFDC --></label>
+        <name>SelectOneEmailForSFDC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectOnlyUsersHavePermissionDSProSFUsername --></label>
+        <name>SelectOnlyUsersHavePermissionDSProSFUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectSignature --></label>
+        <name>SelectSignature</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectUserToBeAdded --></label>
+        <name>SelectUserToBeAdded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectedDocs --></label>
+        <name>SelectedDocs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectedFields --></label>
+        <name>SelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendComplete --></label>
+        <name>SendComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendFailed --></label>
+        <name>SendFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendNow --></label>
+        <name>SendNow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendSettings --></label>
+        <name>SendSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendUpdate --></label>
+        <name>SendUpdate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendWithDS --></label>
+        <name>SendWithDS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendWithDSRecipient --></label>
+        <name>SendWithDSRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendingEnvelope --></label>
+        <name>SendingEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sent --></label>
+        <name>Sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetEmailMessage --></label>
+        <name>SetEmailMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetUpDocuSignAccountComplete --></label>
+        <name>SetUpDocuSignAccountComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetupDSAccount --></label>
+        <name>SetupDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetupError --></label>
+        <name>SetupError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetupNotComplete --></label>
+        <name>SetupNotComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetupUsersInSFToUseDS --></label>
+        <name>SetupUsersInSFToUseDS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ShareExperienceWithCommunity --></label>
+        <name>ShareExperienceWithCommunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ShowTheFirstPage --></label>
+        <name>ShowTheFirstPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ShowTheLastPage --></label>
+        <name>ShowTheLastPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ShowTheNextPage --></label>
+        <name>ShowTheNextPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ShowThePreviousPage --></label>
+        <name>ShowThePreviousPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sign --></label>
+        <name>Sign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignInPerson --></label>
+        <name>SignInPerson</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignNowStatus --></label>
+        <name>SignNowStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignUp --></label>
+        <name>SignUp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignUpFreeDSTrial --></label>
+        <name>SignUpFreeDSTrial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSign --></label>
+        <name>SignWithDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Signature --></label>
+        <name>Signature</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Signed --></label>
+        <name>Signed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Signer --></label>
+        <name>Signer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignerDashSignNow --></label>
+        <name>SignerDashSignNow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignerName --></label>
+        <name>SignerName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignerRole --></label>
+        <name>SignerRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignerRoleAlreadyInUse --></label>
+        <name>SignerRoleAlreadyInUse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignerType --></label>
+        <name>SignerType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Source --></label>
+        <name>Source</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Spanish --></label>
+        <name>Spanish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SpecifiedEnvelopeNoLonerExist --></label>
+        <name>SpecifiedEnvelopeNoLonerExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SpecifiedUserNotRecipient --></label>
+        <name>SpecifiedUserNotRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StartDocuSigning --></label>
+        <name>StartDocuSigning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StartSetUp --></label>
+        <name>StartSetUp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- State --></label>
+        <name>State</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status --></label>
+        <name>Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StatusCorrectInDocuSignErrorMessage --></label>
+        <name>StatusCorrectInDocuSignErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status Resend DocuSign Error --></label>
+        <name>StatusVoidEnvelopeError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StatusVoidEnvelopeErrorMessage --></label>
+        <name>StatusVoidEnvelopeErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step1 --></label>
+        <name>Step1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step1SetUpConnToDS --></label>
+        <name>Step1SetUpConnToDS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step2 --></label>
+        <name>Step2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step2ConnectDSToSF --></label>
+        <name>Step2ConnectDSToSF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StepOneSetupDocuSignAccount --></label>
+        <name>StepOneSetupDocuSignAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StepTwoConnectDocuSignToSalesforce --></label>
+        <name>StepTwoConnectDocuSignToSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StreetAddress --></label>
+        <name>StreetAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subject --></label>
+        <name>Subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suffix} --></label>
+        <name>Suffix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SupportSite --></label>
+        <name>SupportSite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SystemSender --></label>
+        <name>SystemSender</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SystemSenderAlreadyConfigured --></label>
+        <name>SystemSenderAlreadyConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tag --></label>
+        <name>Tag</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TheFirstRoleInTheListWillMap --></label>
+        <name>TheFirstRoleInTheListWillMap</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title --></label>
+        <name>Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ToExistingDSAccount --></label>
+        <name>ToExistingDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ToVoidThisEnvelopeProvideReason --></label>
+        <name>ToVoidThisEnvelopeProvideReason</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Top --></label>
+        <name>Top</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TotalRow --></label>
+        <name>TotalRow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TransactionProblem --></label>
+        <name>TransactionProblem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TransctionInfo --></label>
+        <name>TransctionInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TrustedNetwork --></label>
+        <name>TrustedNetwork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type --></label>
+        <name>Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableAddAttachmentInsufficientAccess --></label>
+        <name>UnableAddAttachmentInsufficientAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableAddContentInsufficientAccessContentVersion --></label>
+        <name>UnableAddContentInsufficientAccessContentVersion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableAddUpdateDocument --></label>
+        <name>UnableAddUpdateDocument</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableAddUpdateEnvelopes --></label>
+        <name>UnableAddUpdateEnvelopes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableAddUpdateRecipients --></label>
+        <name>UnableAddUpdateRecipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableConfigureDocuSignSalesforce --></label>
+        <name>UnableConfigureDocuSignSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableDeleteDocuSignEnvelopeRecipientc --></label>
+        <name>UnableDeleteDocuSignEnvelopeRecipientc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableFindEvenlopeWithIdEquals --></label>
+        <name>UnableFindEvenlopeWithIdEquals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableGetAttachmentNameInsufficientAccess --></label>
+        <name>UnableGetAttachmentNameInsufficientAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableGetContactInformationFromCase --></label>
+        <name>UnableGetContactInformationFromCase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableGetContactsFromOpportunity --></label>
+        <name>UnableGetContactsFromOpportunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableGetContentInformationInsufficientContentWorkspace --></label>
+        <name>UnableGetContentInformationInsufficientContentWorkspace</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableGetDocumentInformationInsufficientAccess --></label>
+        <name>UnableGetDocumentInformationInsufficientAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableGetDocumentInformationInsufficientAccessContentVersion --></label>
+        <name>UnableGetDocumentInformationInsufficientAccessContentVersion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableInitializeDocuSignAccountConfiguration --></label>
+        <name>UnableInitializeDocuSignAccountConfiguration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableLoadProvisioningAccount --></label>
+        <name>UnableLoadProvisioningAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableLoadProvisioningInformation --></label>
+        <name>UnableLoadProvisioningInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnablePopulateFolderList --></label>
+        <name>UnablePopulateFolderList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableSendEvelopeNotExist --></label>
+        <name>UnableSendEvelopeNotExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableToAuthticateUserWithDocuSign --></label>
+        <name>UnableToAuthticateUserWithDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableToEditDocuments --></label>
+        <name>UnableToEditDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnableUpdateRecipientDocuSignEnvelopeRecipientc --></label>
+        <name>UnableUpdateRecipientDocuSignEnvelopeRecipientc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unknown --></label>
+        <name>Unknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UpdateDSAccSettings --></label>
+        <name>UpdateDSAccSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UpdateDoc --></label>
+        <name>UpdateDoc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UpdateDocuSignCredentials --></label>
+        <name>UpdateDocuSignCredentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UpdateDocuSignPassword --></label>
+        <name>UpdateDocuSignPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UpdateInfoDSAdminTab --></label>
+        <name>UpdateInfoDSAdminTab</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UpdatePassword --></label>
+        <name>UpdatePassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UploadAttachment --></label>
+        <name>UploadAttachment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UseDSAccount --></label>
+        <name>UseDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User --></label>
+        <name>User</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserAlreadyConfiguredWithDocuSign --></label>
+        <name>UserAlreadyConfiguredWithDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserLacksSufficientPermissions --></label>
+        <name>UserLacksSufficientPermissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserLinkedDocuSignMembershipDeleted --></label>
+        <name>UserLinkedDocuSignMembershipDeleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserMustBeProvided --></label>
+        <name>UserMustBeProvided</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserSuccessfullyLinkedDocuSignMembership --></label>
+        <name>UserSuccessfullyLinkedDocuSignMembership</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Users --></label>
+        <name>Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UsersPeriod --></label>
+        <name>UsersPeriod</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UsingAnchorTagsToPlaceSignature --></label>
+        <name>UsingAnchorTagsToPlaceSignature</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ViewColon --></label>
+        <name>ViewColon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VoidEnvelope --></label>
+        <name>VoidEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VoidEnvelopeComplete --></label>
+        <name>VoidEnvelopeComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Voided --></label>
+        <name>Voided</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VoidingEnvelopeWillRemoveAccess --></label>
+        <name>VoidingEnvelopeWillRemoveAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome --></label>
+        <name>Welcome</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WhereToStart --></label>
+        <name>WhereToStart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Workspace --></label>
+        <name>Workspace</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WriteAReview --></label>
+        <name>WriteAReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YouCannotManageEnvelopeSettings --></label>
+        <name>YouCannotManageEnvelopeSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YouCannotSelectMoreThan --></label>
+        <name>YouCannotSelectMoreThan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YouDoNotHavePasswordSet --></label>
+        <name>YouDoNotHavePasswordSet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YouHaveNotAssociatedSalesforceUser --></label>
+        <name>YouHaveNotAssociatedSalesforceUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YouHaveNotBeenGrantedDocuSign --></label>
+        <name>YouHaveNotBeenGrantedDocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YourDocuSignAccountNotYetConfigured --></label>
+        <name>YourDocuSignAccountNotYetConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YourDocuSignUserInformation --></label>
+        <name>YourDocuSignUserInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YourName --></label>
+        <name>YourName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Zip --></label>
+        <name>Zip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Add Another Signer --></label>
+        <name>m_AddAnotherSigner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Signer --></label>
+        <name>m_Add_Signer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Cancel --></label>
+        <name>m_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Documents --></label>
+        <name>m_DOCUMENTS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - DocuSign --></label>
+        <name>m_DocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Done --></label>
+        <name>m_Done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Download DocuSign Android Url --></label>
+        <name>m_Download_DocuSign_Android_Url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Download DocuSign Mobile --></label>
+        <name>m_Download_DocuSign_Mobile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Download DocuSign iOS_Url --></label>
+        <name>m_Download_DocuSign_iOS_Url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Download the DocuSign mobile --></label>
+        <name>m_Download_the_DocuSign_mobile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Email Address --></label>
+        <name>m_EmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Email Here --></label>
+        <name>m_EmailHere</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Error - In Person --></label>
+        <name>m_Error_InPerson</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Error - Invalid Email --></label>
+        <name>m_Error_InvalidEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Full Name --></label>
+        <name>m_FullName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Full Name Here --></label>
+        <name>m_FullNameHere</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get DocuSign Mobile --></label>
+        <name>m_Get_DocuSign_Mobile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - In Person --></label>
+        <name>m_InPerson</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidEmailError --></label>
+        <name>m_InvalidEmailError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Reorder --></label>
+        <name>m_Reorder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - SIGNERS --></label>
+        <name>m_SIGNERS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Save Signer --></label>
+        <name>m_SaveSigner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mobile - Edit Page - Via Email --></label>
+        <name>m_ViaEmail</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label><!-- DocuSignAdminLink --></label>
+        <name>DocuSignAdminLink</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label><!-- DocuSign Admin --></label>
+        <name>DocuSign_Admin</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- DocuSign Demo --></label>
+        <name>DocuSign_Partner_Demo</name>
+    </customTabs>
+</Translations>

@@ -1,0 +1,60 @@
+<apex:page controller="ControllerPSComponent" sidebar="false">
+<apex:form >
+  <apex:actionStatus startText="wait..." id="status"></apex:actionStatus> 
+  <table width="100%">
+   <tr>
+     <td width="200px;">
+       <div>
+         <apex:pageBlock >
+             <apex:pageBlockSection title="Select Object">
+               <apex:selectList value="{!selectedObject}" multiselect="false" size="1">
+                  <apex:selectOptions value="{!allSobjectList}"></apex:selectOptions>
+                  <apex:actionSupport action="{!findAllFields}" reRender="pnlFields,pnlResult" event="onchange" id="objChangeAction" status="status"/> 
+               </apex:selectList>
+              </apex:pageBlockSection>       
+         </apex:pageBlock>
+       </div>
+        <br/>
+        <apex:outputPanel id="pnlFields">
+        <apex:pageBlock >
+              <apex:pageBlockSection columns="1"  rendered="{!NOT(ISNULL(fieldOfSelObject))}" >
+                 <apex:facet name="header">
+                     <apex:outputLabel value="Select Fields"> </apex:outputLabel>
+                     <apex:commandButton action="{!createQuery}" value="Search" reRender="pnlResult" status="status"/>   
+                 </apex:facet>
+                 <apex:dataTable value="{!fieldsOfSelObject}" var="fVal">
+                     <apex:column >
+                      <apex:inputCheckbox value="{!fVal.isSelected}"/>
+                      <apex:outputLabel value="{!fVal.fieldLabel}"></apex:outputLabel>
+                     </apex:column> 
+                 </apex:dataTable> 
+              </apex:pageBlockSection>
+             </apex:pageBlock>   
+           </apex:outputPanel>  
+     </td>
+     <td valign="top">
+      <apex:outputPanel id="pnlResult">
+          <apex:pageBlock title="results" >
+              <table width="100%" class="detailList">
+                <tr>
+                  <apex:repeat value="{!headerRow}" var="hVal">
+                      <apex:repeat value="{!hVal.columns}" var="hv">
+                        <th width="{!columnsWidth}%">{!hv.colValue}</th>
+                      </apex:repeat>
+                 </apex:repeat>
+               </tr>  
+               <apex:repeat value="{!resultRows}" var="hVal">
+                   <tr> 
+                      <apex:repeat value="{!hVal.columns}" var="hv">
+                        <td width="{!columnsWidth}%">{!hv.colValue}</td>
+                      </apex:repeat>
+                   </tr>  
+               </apex:repeat>
+             </table>   
+           </apex:pageBlock>
+          </apex:outputPanel> 
+         </td>
+       </tr>
+  </table>
+</apex:form> 
+</apex:page>

@@ -1,0 +1,59 @@
+<apex:page controller="ControllerPSComponent">
+ <apex:includeScript value="{!$Resource.jquery}" />
+
+ <script>
+ $(document).ready(function(){
+    $("#phHeaderLogoImage").css("border","3px solid red");
+    $("#imgArrowFront").click(function () {
+      var n = $("img").queue("fx");
+    });
+    function runIt() {
+      $("img").show("slow");
+      $("img").animate({left:'+=200'},2000);
+      $("img").slideToggle(1000);
+      $("img").slideToggle("fast");
+      $("img").animate({left:'-=200'},1500);
+      $("img").hide("slow");
+      $("img").show(1200);
+      $("img").slideUp("normal", runIt);
+    }
+    
+    $('.meal').click(function() {
+      $('.leftTxt').animate({
+        opacity: 1,
+        left: '+=50',
+        height: 'toggle'
+      }, 5000, function() {
+        // Animation complete.
+      });
+    });
+     //runIt();   
+  });
+ 
+ </script>
+ 
+    <apex:messages />
+    <apex:composition template="myFormComposition">
+    <apex:define name="top">
+        <apex:outputLabel value="Enter your favorite meal: " for="mealField"/>
+        <apex:inputText id="meal" styleClass="meal" value="{!meal}"/>
+        <img id="imgArrowFront" src="{!URLFOR($Resource.SOA2Img,'SOA2Img/arrow_front.gif')}" />
+    </apex:define>
+    <apex:define name="bottom">
+        <apex:outputLabel value="Enter your age: " for="ageField"/>
+        <apex:inputText id="ageField" value="{!age}"/>
+    </apex:define>
+    <apex:define name="left">
+        <apex:outputLabel value="Left Section: " for="mealField"/>
+        <apex:inputText styleClass="leftTxt" value="{!meal}"/>
+    </apex:define>
+    <apex:define name="right">
+        <apex:outputLabel value="Right Section: " for="ageField"/>
+        <apex:inputText value="{!age}"/>
+    </apex:define>
+    <apex:outputLabel value="Enter your favorite color: " for="colorField"/>
+    <apex:inputText id="colorField" value="{!color}"/>
+    </apex:composition>
+    <apex:outputText id="greeting" rendered="{!showGreeting}" value="Hello {!sName}.
+    You look {!age} years old. Would you like some {!color} {!meal}?"/>
+</apex:page>

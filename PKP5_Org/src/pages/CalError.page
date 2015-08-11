@@ -1,0 +1,95 @@
+<apex:page sidebar="false" showHeader="false" controller="ControllerFB_Dream" extensions="RemoteJSDemo">
+<apex:includeScript value="{!$Resource.jquery}"/>
+<script>
+$(document).ready(function(){
+   $("#txtBox").focus(function(event){
+     $("#childmenu").show('slow');
+   });
+   
+   $("#txtBox").blur(function(event){
+     $("#childmenu").hide('slow');
+   });
+   
+   
+   /**
+   $("#result").load('/apex/FB_Dream'); 
+   $.get('/apex/FB_Dream', function(data) {
+      document.getElementById("result").innerHTML = data;
+      alert(data);
+      var scripts = (document.getElementById("result")).getElementsByTagName('script');
+      for (var ix = 0; ix < scripts.length; ix++) {
+            alert(scripts[ix].text);
+            eval(scripts[ix].text);
+      }
+
+    });
+    **/
+});
+</script>
+<style>
+div#childmenu{
+ background-color: blue; 
+ border: 20px outset blue;
+ height: 120px;
+ width: 200px;
+}
+</style>
+<body>
+ <input type="text" id="txtBox" />
+ <UL>
+   <li> First </li>
+   <li> second </li>
+   <li id="13menuItem"> 
+     Third
+     <div id="childmenu"> 
+      <UL>
+       <li> 1.First </li>
+       <li> 1. second </li>
+     </UL>      
+     </div>
+   </li>
+ </UL>
+   <div id="result"></div>
+ </body>
+<input type="button" onclick="callJS();" value="callJS" />
+
+<input type="text" class="search" value="" onkeyup="searchAccount(this.value);"/>
+<div id="divResult"></div>
+<ul id="ulResult"></ul>
+<apex:form >
+   <apex:outputField value="{!account.Name}" >
+    <apex:inlineEditSupport event="ondblclick" 
+                        changedStyleClass="myBoldClass" resetFunction="resetInlineEdit"/>
+    </apex:outputField>
+</apex:form>
+ <!--
+ <apex:repeat value="{!AccountInfo}" var="aInfo">
+   <apex:outputLabel escape="false" value="{!aInfo}"></apex:outputLabel>
+ </apex:repeat>/>
+-->
+<script type="text/javascript">
+function callJS(){
+  RemoteJSDemo.justHello('Pankaj ', function(result,e) { alert(result); alert(e);} );
+}
+
+function searchAccount(val){
+
+ if(val){
+  RemoteJSDemo.findAccount(val, function(result){ 
+        document.getElementById('ulResult').innerHTML = '';
+        var ul = document.createElement('ul');
+        
+        for(var i =0 ; i < result.length; i++){
+         var acc = result[i];  
+         var li = document.createElement('li');
+         li.innerHTML = '<span> ' + acc.Name + ' </span>' ;
+         ul.appendChild(li);
+        }
+        document.getElementById('ulResult').appendChild(ul);
+     } 
+  );
+ } 
+}
+</script> 
+ 
+</apex:page>

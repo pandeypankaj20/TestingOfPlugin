@@ -1,0 +1,7 @@
+<apex:page >
+
+<apex:form >
+ <apex:commandLink value="Используйте Улучшенная адрес"/>
+</apex:form>
+
+</apex:page>

@@ -1,0 +1,13 @@
+<apex:page controller="ControllerFB_Dream" showHeader="false" sidebar="false">
+<div>
+   Loading....
+</div>
+<script>
+   window.onload = function(){
+        var accessToken = window.location.hash.substring(1);
+        accessToken = accessToken.substring(accessToken.indexOf("=")+1,accessToken.indexOf("&"));
+        window.opener.document.getElementById('hdnAccessCode').value = accessToken; 
+        window.close();
+ };
+</script>
+</apex:page>

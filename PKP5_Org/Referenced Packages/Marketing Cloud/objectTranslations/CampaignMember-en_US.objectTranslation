@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activity --></label>
+        <name>Activity__c</name>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Status</masterLabel>
+            <translation><!-- Test Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubscribed</masterLabel>
+            <translation><!-- Unsubscribed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>test value 1</masterLabel>
+            <translation><!-- test value 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>test value 2</masterLabel>
+            <translation><!-- test value 2 --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

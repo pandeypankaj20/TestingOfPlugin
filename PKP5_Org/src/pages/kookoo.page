@@ -1,0 +1,9 @@
+<apex:page showHeader="false" sidebar="false" contentType="xml">
+  <response>
+      <conference>2345</conference>  
+      <playtext>
+       Emergency  for any urgent requests, specifically including requests in project with L1 support.
+      </playtext>
+   <hangup/>
+  </response>
+</apex:page>

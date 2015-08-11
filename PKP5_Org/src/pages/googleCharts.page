@@ -1,0 +1,81 @@
+<apex:page controller="oppChartController" action="{!fetchOppData}" >
+  <html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.load('visualization', '1', {packages: ['imagepiechart']});
+      google.load('visualization', '1', {packages: ['motionchart']});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+        data.addColumn('number', 'Amount');
+        data.addColumn('number', 'Expected Revenue');
+        
+        <apex:repeat value="{!lstOppDtl}" var="lst">
+             data.addRow(['{!lst.oppYear}',{!lst.amount},{!lst.expAmt}]);
+        </apex:repeat>
+        /*
+        We can add a row one at a time to pass the array
+        data.addRow(['2007', 2000.0, 700]);
+        data.addRow(['2008', 1170.25, 560]);
+        data.addRow(['2009',1660.26, 120]);
+        data.addRow(['2010', 1330.0, 940]);
+        */
+        /*
+        We can add multipal rows one at a time to pass the array
+        data.addRows([
+          ['2007', 2000.0, 700],
+          ['2008', 1170.25, 560],
+          ['2009',1660.26, 120,
+          ['2010', 1330.0, 940]
+        ]);
+        */
+        var chart = new google.visualization.AreaChart(document.getElementById('areaChart'));
+        chart.draw(data, {height: 240,hAxis: {title: 'Year', titleTextStyle: {color: '#FF0000'}}});
+        
+        chart =  new google.visualization.ImagePieChart(document.getElementById('pieChart'));
+        chart.draw(data, {height: 240, hAxis: {title: 'Year', titleTextStyle: {color: '#FF0000'}}});
+        
+        chart =   new google.visualization.ColumnChart(document.getElementById('columnChart'));
+        chart.draw(data,{width:500, height:400,vAxis: {title: "Amount"},hAxis: {title: "Year"}});
+        chart =   new google.visualization.LineChart(document.getElementById('lineChart'));
+        chart.draw(data,{width:500, height:400,vAxis: {title: "Amount"},hAxis: {title: "Year"}});
+        
+        data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+        data.addColumn('date', 'Date');
+        data.addColumn('number', 'Amount');
+        data.addColumn('number', 'Expected Revenue');
+        data.addColumn('string', 'Stage');
+        <apex:repeat value="{!lstOppDtl}" var="lst">
+             data.addRow(['{!lst.oppYear}',new Date (2011,0,1),{!lst.amount},{!lst.expAmt},'{!lst.oppStage}']);
+        </apex:repeat>
+        chart =   new google.visualization.MotionChart(document.getElementById('MotionChart'));
+        chart.draw(data,{width:1000,height:400,vAxis: {title: "Year"},hAxis: {title: "Expenses"}});
+        
+      }
+    </script>
+  </head>
+  <body>
+  <apex:pageBlock title="Opportunity Revenue Details" >
+   <apex:pageBlockSection columns="1" >
+    <apex:pageBlockSectionItem >
+       <div style="width:1000px;"> 
+          <div style="width:500px;float:left;" id="lineChart"></div>
+          <div style="width:500px;float:left;" id="columnChart"></div>
+       </div>  
+       <div style="width:1000px;"> 
+          <div style="width:500px;float:left;" id="pieChart"></div>
+          <div style="width:500px;float:left;" id="areaChart"></div>
+       </div> 
+       <div style="width:1000px;"> 
+          <div style="width:1000px;float:left;" id="MotionChart"></div>
+       </div> 
+    </apex:pageBlockSectionItem>
+   </apex:pageBlockSection>
+  </apex:pageBlock>
+  </body>
+</html>
+</apex:page>

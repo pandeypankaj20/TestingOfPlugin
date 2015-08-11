@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Résultat d’e-mail individuel</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Résultats d’e-mails individuels</value>
+    </caseValues>
+    <fields>
+        <label>Cliqués</label>
+        <name>Clicked__c</name>
+    </fields>
+    <fields>
+        <label>Contact</label>
+        <name>Contact__c</name>
+        <relationshipLabel>Résultats d’e-mails individuels</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date and time when this subscriber’s email address bounced --></help>
+        <label>Date de retour</label>
+        <name>DateBounced__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time when the subscriber opened the email --></help>
+        <label>Date de création</label>
+        <name>DateOpened__c</name>
+    </fields>
+    <fields>
+        <label>Date d&apos;envoi</label>
+        <name>DateSent__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time when the subscriber unsubscribed --></help>
+        <label>Date de désabonnement</label>
+        <name>DateUnsubscribed__c</name>
+    </fields>
+    <fields>
+        <label>Email</label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label>Adresse d&apos;expéditeur</label>
+        <name>FromAddress__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l&apos;expéditeur</label>
+        <name>FromName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The email sent to this subscriber  was rejected due to permanent conditions (this typically results when &quot;user unknown&quot; or &quot;domain not found&quot; errors occur) --></help>
+        <label>Refus permanent</label>
+        <name>HardBounce__c</name>
+    </fields>
+    <fields>
+        <label>Prospect</label>
+        <name>Lead__c</name>
+        <relationshipLabel>Résultats d’e-mails individuels</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fusionner l&apos;ID</label>
+        <name>MergeId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total number of times this subscriber clicked on the links on this email --></help>
+        <label>Nombre de clics totaux</label>
+        <name>NumberOfTotalClicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- The unique number of times this subscriber clicked on the links on this email (unique means one click per link) --></help>
+        <label><!-- Number of Unique Clicks --></label>
+        <name>NumberOfUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the subscriber opened the email or not --></help>
+        <label>Ouverts</label>
+        <name>Opened__c</name>
+    </fields>
+    <fields>
+        <help><!-- The unique identifier of the email send. You may be asked to reference this number when calling ExactTarget support if the need arises. --></help>
+        <label>Définition de l&apos;envoi</label>
+        <name>SendDefinition__c</name>
+        <relationshipLabel>Résultats d’e-mails individuels</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The email sent was rejected due to a seemingly temporary condition, such as a full inbox, after the system retries unsuccessfully to send the email every 15 minutes for 72 hours. A subscriber will be set to Held status after three soft bounces --></help>
+        <label>Refus temporaire</label>
+        <name>SoftBounce__c</name>
+    </fields>
+    <fields>
+        <label>Ligne d&apos;objet</label>
+        <name>SubjectLine__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time the last tracking update was received by Salesforce --></help>
+        <label>Suivi en date du</label>
+        <name>Tracking_As_Of__c</name>
+    </fields>
+    <fields>
+        <label><!-- Triggered Send --></label>
+        <name>TriggeredSendDefinition__c</name>
+        <relationshipLabel><!-- Individual Email Results --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Individual Email Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Image --></label>
+            <section>Email Image</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Email Name --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label>Demander un suivi immédiatement</label>
+        <name>Request_Tracking_Immediately</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,161 @@
+<apex:page showHeader="true" sidebar="false" controller="PFinderController">
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjIY5HKM1dAlao6yUU8EzwPzdUh2ZNj0g&sensor=false"> </script>
+<script>
+var gAccount = [];
+var map = null;
+var counter = 0;
+var delay = 500;
+
+function load() {
+    map = null;
+    mapDiv = document.getElementById("map");
+    var mapOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 4,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          mapMaker: true
+    };
+    map = new google.maps.Map(mapDiv,mapOptions);
+    finishSearch();
+}
+ 
+function finishSearch() {
+   if(counter < gAccount.length){ 
+      showAddress(gAccount[counter++],finishSearch);
+  }
+}
+
+function showAddress(record,finishSearch) {
+var html=''; 
+try{
+ if(record.Longs != '' && record.Lats != ''){
+        var points = new google.maps.Point(record.Lats,record.Longs);
+        var latLongs = new google.maps.LatLng(record.Lats,record.Longs); 
+        
+        html ='<hr>' + counter +'.&nbsp;'+ record.Name + '<br/>';
+        html += record.City +'&nbsp;'+ record.State + '&nbsp;'+ record.Country + ',&nbsp;' + record.Zip + '<br/>'; 
+        html +="<hr><b>URL:<b> <a href=https://ap1.salesforce.com/" + record.Id + " target=_blank >account details</a>";
+            
+        var infowindow = new google.maps.InfoWindow({
+            content: html
+        });
+        var marker = new google.maps.Marker({
+            position: latLongs,
+            map: map,
+            title: record.Name
+        });
+        
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+        
+        //set the center for last flag
+        if((gAccount.length - 1) == counter)
+            map.setCenter(latLongs, 3);
+        
+  }
+ }catch(error){}    
+    setTimeout(finishSearch,delay);
+}
+ 
+function Group(id,name,lats,longs,displayNumber,city,state,country,zip) {
+    this.Id = id;
+    this.Name = name;
+    this.Lats = lats;
+    this.Longs = longs;
+    this.DisplayNumber = displayNumber;
+    this.City = city;
+    this.State = state;
+    this.Country = country;
+    this.Zip = zip;
+}
+ 
+function setFocusOnMap(Lats,Longs){
+    map.setCenter(new google.maps.LatLng(Lats,Longs), 3);
+}
+</script>
+<style>
+.waitingSearchDiv .waitingHolder {
+    font-weight:bold;
+    font-size:1.20em;
+    position:relative;
+    padding:0.5em;
+    white-space:nowrap;
+    margin: auto;
+    background-color:#fff;
+    border:0px;
+}
+</style>
+<apex:form >
+<span id="status">
+       <span style="display: none;" id="status.start">
+         <div style="width: 100%;" class="waitingSearchDiv" id="enhancedList_loading">
+            <div class="waitingHolder" style="top: 150px;width: 180px;" >
+               <img src="/img/loading.gif" class="waitingImage" title="Please Wait..."/>
+               <span class="waitingDescription">Loading...</span>
+            </div>
+         </div>
+       </span>
+       <span id="status.stop"></span>
+</span>
+<apex:outputPanel id="outMap">
+     <script type="text/javascript">
+      function populateMap(){ 
+         gAccount=[];
+        <apex:repeat value="{!lstAcc}" var="act" id="TmpLoop" >
+              gAccount.push(new Group("{!act.acc.id}","{!act.acc.Name}","{!act.acc.Latitude__c}","{!act.acc.Longitude__c}",true,'{!act.acc.BillingCity}','{!act.acc.BillingState}','{!act.acc.BillingCountry}','{!act.acc.BillingPostalCode}'));
+        </apex:repeat> 
+         load(); 
+       }
+      </script> 
+  </apex:outputPanel>
+<apex:pageBlock title="Partner Finder">
+<apex:pageBlockSection columns="1">
+<apex:pageBlockSectionItem >
+ <apex:outputLabel value="Name:"></apex:outputLabel>
+ <apex:outputPanel >
+    <apex:inputText value="{!selectedAccName}"/>
+ </apex:outputPanel>
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem >
+ <apex:outputLabel value="Postal Code:"></apex:outputLabel>
+ <apex:outputPanel >
+    <apex:inputText value="{!selectedZip}"/>
+    <apex:commandButton value="Search" action="{!searchAcc}" status="status" reRender="secMap,outMap" oncomplete="populateMap();"    />
+ </apex:outputPanel>
+</apex:pageBlockSectionItem>
+</apex:pageBlockSection>
+<apex:pageBlockSection id="secMap" title="Search result" columns="1">
+    <apex:outputPanel >
+      <table width="100%">
+        <tr>
+          <td width="15%">
+            <div style="height:600px;overflow:scroll;" >
+            <apex:outputPanel >
+               <apex:repeat value="{!lstAcc}" var="act" id="TmpLoop" >
+                 <div style="width: 200px;height:60px; padding:0px 0px 2px 2px;" onclick="setFocusOnMap('{!act.acc.Latitude__c}','{!act.acc.Longitude__c}');">
+                     <div style="float:left;height:60px;width:20px;background-color:#800517;color:#FFF;text-valign:center;text-align:center;" >{!act.count}. </div>
+                     <div style="float:left;height:60px;width:170px;background-color:#41383C;color:#FFF;text-valign:center;" >
+                         {!act.acc.Name} <br/>
+                         {!act.acc.BillingStreet},&nbsp;
+                         {!act.acc.BillingCity}&nbsp;
+                         {!act.acc.BillingState}&nbsp;
+                         {!act.acc.BillingCountry},&nbsp;
+                         {!act.acc.BillingPostalCode}
+                     </div> 
+                 </div>
+               </apex:repeat>
+            </apex:outputPanel>
+           </div> 
+          </td>
+            <td width="85%">
+             <div id="map" style="height: 600px;"></div>
+           </td>
+        </tr>
+      </table>
+        
+    </apex:outputPanel>
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

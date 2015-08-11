@@ -1,0 +1,9 @@
+<apex:page showHeader="false" sidebar="false">
+<script>
+window.onload = function(){
+    alert(window.location.href);
+    alert(window.parent.location.href);
+    parent.reload();
+}
+</script>
+</apex:page>

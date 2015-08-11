@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocuSign Envelope --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- DocuSign Envelope --></value>
+    </caseValues>
+    <fields>
+        <label>Testo Chatter - Busta completata</label>
+        <name>ChatterEnvCompletedText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Busta completata</label>
+        <name>ChatterEnvCompleted__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Busta rifiutata</label>
+        <name>ChatterEnvDeclinedText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Busta rifiutata</label>
+        <name>ChatterEnvDeclined__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Busta consegnata</label>
+        <name>ChatterEnvDeliveredText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Busta consegnata</label>
+        <name>ChatterEnvDelivered__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Busta inviata</label>
+        <name>ChatterEnvSentText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Busta inviata</label>
+        <name>ChatterEnvSent__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Busta annullata</label>
+        <name>ChatterEnvVoidedText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Busta annullata</label>
+        <name>ChatterEnvVoided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Completed Chatter Text --></label>
+        <name>ChatterRecipCompletedText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Completed Chatter --></label>
+        <name>ChatterRecipCompleted__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Respinta da destinatario</label>
+        <name>ChatterRecipDeclinedText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Respinta dal destinatario</label>
+        <name>ChatterRecipDeclined__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Consegnata a destinat.</label>
+        <name>ChatterRecipDeliveredText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Consegnata al destinatario</label>
+        <name>ChatterRecipDelivered__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Inviata al destinatario</label>
+        <name>ChatterRecipSentText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Inviata al destinatario</label>
+        <name>ChatterRecipSent__c</name>
+    </fields>
+    <fields>
+        <label>Testo Chatter - Firmata dal destinatario</label>
+        <name>ChatterRecipSignedText__c</name>
+    </fields>
+    <fields>
+        <label>Chatter - Firmata dal destinatario</label>
+        <name>ChatterRecipSigned__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check to show chatter during DocuSign signature workflow. --></help>
+        <label>Consenti aggiornamenti stato Chatter</label>
+        <name>ChatterUpdatesEnabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a Contact from Salesforce to be a DocuSign Recipient/Signer.  Only Contacts with valid email addresses can be used as DocuSign Recipients. --></help>
+        <label>Contatto per documento eSign</label>
+        <name>Contact2eSignDoc01__c</name>
+        <relationshipLabel>Busta DocuSign 1</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nome campo personalizzato 1</label>
+        <name>Custom_Field_1_Name__c</name>
+    </fields>
+    <fields>
+        <label>Valore campo personalizzato 1</label>
+        <name>Custom_Field_1_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Custom Field to pass data via Envelope --></help>
+        <label>Campo personalizzato 1</label>
+        <name>Custom_Field_1__c</name>
+    </fields>
+    <fields>
+        <label>Nome campo personalizzato 2</label>
+        <name>Custom_Field_2_Name__c</name>
+    </fields>
+    <fields>
+        <label>Valore campo personalizzato 2</label>
+        <name>Custom_Field_2_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Custom Field to pass data via Envelope --></help>
+        <label>Campo personalizzato 2</label>
+        <name>Custom_Field_2__c</name>
+    </fields>
+    <fields>
+        <label>Nome campo personalizzato 3</label>
+        <name>Custom_Field_3_Name__c</name>
+    </fields>
+    <fields>
+        <label>Valore campo personalizzato 3</label>
+        <name>Custom_Field_3_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Custom Field to pass data via Envelope --></help>
+        <label>Campo personalizzato 3</label>
+        <name>Custom_Field_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate how many days prior to expiration you want an email message to alert recipients that a deadline approaches for completion. This is sent only to recipients who have not yet completed the transaction. --></help>
+        <label>Avviso scadenza con anticipo di N giorn.</label>
+        <name>Day_Prior_to_Warn_of_expiration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate the number of days until this transaction is expired. --></help>
+        <label>Scadenza/Annull. busta fra N giorno/i</label>
+        <name>Days_before_Envelope_is_Expired_Voided__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit this Email Message Text (up to 2,000 characters) and it will appear in the notification to sign for your DocuSign Recipient. --></help>
+        <label>Messaggio e-mail DocuSign</label>
+        <name>DocuSign_Email_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Change this default Email Subject text and it will appear as the Subject Line in the notification to Sign for your DocuSign Recipients. --></help>
+        <label>Oggetto e-mail DocuSign</label>
+        <name>DocuSign_Email_Subject__c</name>
+    </fields>
+    <fields>
+        <help><!-- DocuSign Envelope ID --></help>
+        <label>ID busta DocuSign</label>
+        <name>DocuSign_Envelope_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- DocuSign Envelope Sent --></help>
+        <label>Busta DocuSign inviata</label>
+        <name>DocuSign_Envelope_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document ID --></help>
+        <label><!-- DocumentID --></label>
+        <name>DocumentID__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a list of PDF Documents located in your Organization&apos;s Salesforce &quot;Documents Tab&quot;.  In order to send with DocuSign you must add a PDF to any of the folders within your Documents Tab in Salesforce.  To Send with other Formats click &quot;Learn More&apos;. --></help>
+        <label>Nome documento</label>
+        <name>Document_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- At times, you may need to encourage your recipients to complete an envelope more rapidly. After an envelope expires, DocuSign for Salesforce voids the envelope and sends a notification to both sender and recipient. --></help>
+        <label>Scadenza/annullamento busta</label>
+        <name>Expire_Void_Envelope__c</name>
+    </fields>
+    <fields>
+        <help><!-- I agree to Terms --></help>
+        <label>Accetto i termini</label>
+        <name>I_agree_to_Terms__c</name>
+    </fields>
+    <fields>
+        <help><!-- Click this checkbox if you would like to be added as an additional Recipient/Signer on this document.  If you leave this unchecked you will receive notification that the Contact has DocuSigned but will not be able to Sign it yourself. --></help>
+        <label>Intendo firmare anch&apos;io</label>
+        <name>I_will_Sign__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quick Lead to eSign Document --></help>
+        <label>Lead per documento eSign</label>
+        <name>Lead2eSignDoc01__c</name>
+        <relationshipLabel>Buste DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicate how many days should pass before the first reminder is sent --></help>
+        <label>Invia promemoria fra N giorno/i</label>
+        <name>Reminder_Interval__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate how often (in days) the reminder should repeat until the transaction is complete. --></help>
+        <label>Ripeti ogni N giorno/i fino a completam.</label>
+        <name>Reminder_Repeat_Interval_in_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box to have an email reminder sent to recipients of the envelope who have not yet completed their task. --></help>
+        <label>Invia e-mail di promemoria ai firmatari</label>
+        <name>Send_Reminder__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the name of the Salesforce User who created this DocuSign transaction. --></help>
+        <label>Mittente</label>
+        <name>Sender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source_Object_Parent --></label>
+        <name>Source_Object_Parent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Source Object --></help>
+        <label>Oggetto origine</label>
+        <name>Source_Object__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>DocuSign Envelope Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- DocuSign Envelope --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+    <webLinks>
+        <label><!-- Learn_More --></label>
+        <name>Learn_More</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resend_This_Envelope --></label>
+        <name>Resend_This_Envelope</name>
+    </webLinks>
+</CustomObjectTranslation>

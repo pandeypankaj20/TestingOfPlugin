@@ -1,0 +1,24 @@
+<apex:page controller="CSVParserController">
+  <apex:form id="frmMassUpload" > 
+    <!-- Upload Section Start -->
+        <apex:pageBlock id="pbUpload" >
+            <table width="100%" border="0" >
+                <tr>
+                    <td width="17%" align="right" style="padding-top: 5px;"><B>Select File</B></td>
+                    <td width="30%" align="center">
+                    <div id="uploadFile_div">
+                        <apex:inputFile value="{!FileContent}" filename="{!FileName}" contentType="csv" id="inpFile" style="btn" accept="text/csv" />
+                    </div>
+                    </td>
+                    <td width="7%" align="left">                        
+                        <apex:commandButton action="{!readFile}" value="Upload" id="btnUpload"  />
+                    </td>
+                </tr>
+            </table>
+            <apex:pageBlockTable value="{!lstUser}" var="user">
+               <apex:column value="{!user.name}"/>
+           </apex:pageBlockTable>
+         </apex:pageBlock>
+                
+    </apex:form> 
+</apex:page>

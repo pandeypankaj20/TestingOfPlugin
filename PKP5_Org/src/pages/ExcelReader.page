@@ -1,0 +1,114 @@
+<apex:page showHeader="false" sidebar="false">
+ <apex:messages />
+ <script type="text/vbscript">
+ 
+  sub readBtn_OnClick()
+    Dim fileUrl
+    Dim rowIndex
+    Dim colIndex
+    Dim oldContent
+    Dim newContent
+    Dim cellContent
+    
+    MsgBox "Helloooooooooooooo"  
+    fileUrl = document.getElementById("userFile").value
+    
+    Set objExcel = CreateObject("Excel.Application")
+    Set objWorkbook = objExcel.Workbooks.Open(fileUrl)
+
+    rowIndex = 1
+    colIndex = 1
+    Do Until objExcel.Cells(rowIndex ,colIndex).Value = ""
+        oldContent = document.form.excelContent.value
+        newContent = oldContent & objExcel.Cells(rowIndex , colIndex).Value & vbCr & vbLf
+        document.form.excelContent.value = newContent 
+        rowIndex = rowIndex + 1
+    Loop
+    objExcel.Workbooks(1).Close
+    objExcel.Quit
+    MsgBox "Done" 
+  end sub
+  
+  sub readBtn2_onClick()
+    MsgBox "Hello World"
+  end sub
+</script>
+
+<form name="form">
+    <input type="file" name="userFile"/>
+    <input type="button" value="Read" name="readBtn" />                         
+    <input type="button" value="Read" name="readBtn2" />
+    <p><textarea rows="10" cols="44" name="excelContent" ></textarea></p>
+</form>
+
+</apex:page>
+
+<!--
+<apex:page >
+  <html>
+<script>
+function mytest1() {
+    var Excel, Book;    // Declare the variables
+    Excel = new ActiveXObject("Excel.Application"); // Create the Excel application object.
+    Excel.Visible = false;  // Make Excel invisible.
+    Book = Excel.Workbooks.Add()    // Create a new work book.
+    Book.ActiveSheet.Cells(1,1).Value = document.all.my_textarea1.value;
+    Book.SaveAs("C:/Documents and Settings/ProGamer/Desktop/word to text/TEST.xls");        
+    Excel.Quit();   // Close Excel with the Quit method on the Application object.
+}
+
+function mytest2() {
+    var Excel;
+    Excel = new ActiveXObject("Excel.Application"); 
+    Excel.Visible = false;
+    form1.my_textarea2.value = Excel.Workbooks.Open("C:/Documents and Settings/ProGamer/Desktop/word to text/TEST.xls").ActiveSheet.Cells(1,1).Value;
+    Excel.Quit();
+}
+
+function getFilePath(){
+     alert(document.forms[2]);
+     alert(document.forms[2].fileExcel.value);
+     var Excel;
+     if (window.ActiveXObject) {
+      try {
+        Excel = new ActiveXObject ("Excel.Application");
+        Excel.Visible = true;
+      }catch (e) {
+        alert (e.message);
+      }
+      }else {
+        alert ("Your browser does not support this example.");
+      }
+     
+     Excel = new ActiveXObject("Excel.Application"); 
+     alert(Excel.Workbooks.Open(document.forms[2].fileExcel.value).ActiveSheet.Cells(1,1).value);
+     //alert(getLocalFilePath(document.getElementById('fileExcel').value));
+     //alert(form1.files.item(0).getAsDataURL());
+}
+function getLocalFilePath(file) {
+ // file is nsIFile
+ var ios = Components.classes["@mozilla.org/network/io-service;1"]
+                     .getService(Components.interfaces.nsIIOService);
+ var fileHandler = ios.getProtocolHandler("file")
+                     .QueryInterface(Components.interfaces.nsIFileProtocolHandler);
+ var URL = fileHandler.getURLSpecFromFile(file);
+ return URL;
+}
+</script>
+
+<body>
+<form name="form1">
+    <input type="button" onclick="mytest1();" value="Send Excel Data" />
+    <input type="text" name="my_textarea1" size="70" value="enter ur data here" />
+    <br/><br/>
+    <input type="button" onclick="mytest2();" value="Get Excel Data" />
+    <input type="text" name="my_textarea2" size="70"  value="no data collected yet" />
+    <input type="file" value="" id="fileExcel" />
+    <input type="button" onclick="getFilePath();" value="File Name" />
+    
+</form>
+</body>
+</html>
+</apex:page>
+
+-->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Détails globaux relatifs au lien</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Détails globaux relatifs au lien</value>
+    </caseValues>
+    <fields>
+        <label>Identifiant du lien ExactTarget</label>
+        <name>ExactTargetLinkID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time this link was last clicked --></help>
+        <label>Cliqué pour la dernière fois</label>
+        <name>Last_Clicked__c</name>
+    </fields>
+    <fields>
+        <label>URL du lien</label>
+        <name>LinkURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The aggregate number of times this link has been clicked --></help>
+        <label>Nombre de clics totaux</label>
+        <name>NumberOfTotalClicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- The aggregate unique number of times this link has been clicked (unique means one click per subscriber) --></help>
+        <label><!-- Number of Unique Clicks --></label>
+        <name>NumberOfUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <label>Définition de l&apos;envoi</label>
+        <name>Send_Definition__c</name>
+        <relationshipLabel>Détails globaux relatifs au lien</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Triggered Send --></label>
+        <name>TriggeredSendDefinition__c</name>
+        <relationshipLabel><!-- Aggregate Link Level Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Identifiant de lien unique</label>
+        <name>Unique_Link_ID__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Aggregate Link Level Detail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Link Name --></nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

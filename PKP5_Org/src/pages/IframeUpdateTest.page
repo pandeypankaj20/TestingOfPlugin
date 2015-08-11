@@ -1,0 +1,20 @@
+<apex:page sidebar="false" controller="IframeUpdateTestController">
+<apex:includeScript value="{!$Resource.jquery}"/>
+<script>
+$(document).ready(function(){
+   alert('Hiiiiiiiiiiiiii');
+   alert(document.getElementById("acc1_ileinner").innerHTML);
+});
+</script>
+<!--
+  <apex:tabPanel switchType="server" selectedTab="SmartFinance" id="DesignToolsTabPanel">
+      <apex:tab label="Google" name="SmartFinance" id="tabSmartFinance" >
+          <apex:iframe width="950px" height="1405px" scrolling="auto" id="SCFrame" src="/001900000091azi"></apex:iframe>
+      </apex:tab>        
+  </apex:tabPanel>
+  
+ --> 
+ <div id="myfrmDiv">
+   <apex:outputLabel escape="false" value="{!pageValue}"> </apex:outputLabel> 
+ </div>  
+</apex:page>

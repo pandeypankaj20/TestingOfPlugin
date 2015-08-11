@@ -1,0 +1,30 @@
+<apex:page controller="ControllerPSComponent">
+<apex:form >
+      <apex:outputLabel value="Enter your name: " for="nameField"/>
+      <apex:inputText id="sname" value="{!sname}"/>
+ <table cellspacing="1" border="1" style="border:1px solid #334323;">
+  <tr>
+     <td>&nbsp;</td>
+     <td><apex:insert name="top" /></td>
+     <td>&nbsp;</td>
+  </tr>
+  <tr>
+     <td><apex:insert name="left" /></td>
+     <td>&nbsp;</td>
+     <td><apex:insert name="right" /></td>
+  </tr>
+  <tr>
+     <td>&nbsp;</td>
+     <td><apex:insert name="bottom" /></td>
+     <td>&nbsp;</td>
+  </tr>
+ </table>       
+        <br/>
+            
+        <br/>
+            <apex:insert name="meal" />
+        <br/>
+        <p>That's everything, right?</p>
+       <apex:commandButton action="{!save}" value="Save" id="saveButton"/>
+</apex:form>
+</apex:page>

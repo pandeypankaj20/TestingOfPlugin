@@ -1,0 +1,18 @@
+<apex:page >
+  <script type="text/javascript">
+     var dataSet = new Array();
+     dataSet.push({'name':'Jan','data1':70,'data2':70,'data3':90});
+     dataSet.push({'name':'Feb','data1':50,'data2':55,'data3':80});
+     dataSet.push({'name':'Mar','data1':67,'data2':60,'data3':75});
+     dataSet.push({'name':'Apr','data1':57,'data2':50,'data3':75});
+     dataSet.push({'name':'May','data1':47,'data2':40,'data3':75});
+     dataSet.push({'name':'Jun','data1':37,'data2':30,'data3':75});
+     dataSet.push({'name':'Jul','data1':27,'data2':20,'data3':75});
+  </script>
+  <apex:chart data="dataSet" height="450" width="600">
+    <apex:axis position="bottom" fields="name" type="Category" title="Months of the Year" ></apex:axis>
+    <apex:axis position="left" fields="data1" type="Numeric" title="Opportunities Closed"></apex:axis>
+    <apex:lineSeries markerSize="4" axis="bottom" markerType="cross"  title="Months" fill="true" xField="name" yField="data1"></apex:lineSeries>
+    <apex:lineSeries markerSize="4" axis="bottom" markerType="circle"  fill="true" title="Months" xField="name" yField="data2"></apex:lineSeries>
+  </apex:chart>
+</apex:page>
