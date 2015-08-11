@@ -21,4 +21,5 @@ public class ChangePasswordController {
         
         System.assertEquals(controller.changePassword(),null);                           
     }    
+    
 }
